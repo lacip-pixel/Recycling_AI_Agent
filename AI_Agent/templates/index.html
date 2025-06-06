@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recycling Sort Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Recycling Sort Assistant ♻️</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <label for="item">Item Description:</label>
+            <input type="text" name="item" placeholder="e.g., greasy pizza box" required>
+
+            <label for="location">Location:</label>
+            <input type="text" name="location" placeholder="e.g., Chicago, IL" required>
+
+            <label for="image">Optional: Upload Image</label>
+            <input type="file" name="image"><br>
+            <small><em>Note: Image classification is not yet supported, but planned for future updates.</em></small>
+
+
+            <button type="submit">Classify</button>
+        </form>
+
+        {% if result %}
+        <div class="result">
+            <h2>Classification: {{ result.classification }}</h2>
+            <pre>{{ result.response }}</pre>
+        </div>
+        {% endif %}
+
+        {% if message %}
+        <div class="message">
+            <p>{{ message }}</p>
+        </div>
+        {% endif %}
+        
+        {% if history %}
+    <div class="history">
+        <h3>Past Classifications</h3>
+        <pre>{{ history }}</pre>
+    </div>
+    {% endif %}
+
+    </div>
+</body>
+<div class="footer">
+    <p>Part of Summer Research: Recycling AI Agent | University of Michigan-Flint</p>
+</div>
+
+</html>
