@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Recycling Sort Assistant ♻️</h1>
+        <h1>♻️ Recycling Sort Assistant</h1>
         <form method="POST" enctype="multipart/form-data">
             <label for="item">Item Description:</label>
             <input type="text" name="item" placeholder="e.g., greasy pizza box" required>
@@ -15,38 +15,40 @@
             <label for="location">Location:</label>
             <input type="text" name="location" placeholder="e.g., Chicago, IL" required>
 
-            <label for="image">Optional: Upload Image</label>
-            <input type="file" name="image"><br>
-            <small><em>Note: Image classification is not yet supported, but planned for future updates.</em></small>
-
+            <label for="image">Optional: Upload Image (coming soon)</label>
+            <input type="file" name="image">
 
             <button type="submit">Classify</button>
         </form>
 
         {% if result %}
-        <div class="result">
+        <div class="result-box">
             <h2>Classification: {{ result.classification }}</h2>
             <pre>{{ result.response }}</pre>
         </div>
         {% endif %}
 
         {% if message %}
-        <div class="message">
+        <div class="message-box">
             <p>{{ message }}</p>
         </div>
         {% endif %}
-        
-        {% if history %}
-    <div class="history">
-        <h3>Past Classifications</h3>
-        <pre>{{ history }}</pre>
-    </div>
-    {% endif %}
 
+        {% if past_history %}
+        <div class="history-box">
+            <h3>Past Classifications</h3>
+            {% for sender, content in past_history %}
+            <div class="chat-line">
+                <strong>{{ sender }}:</strong> {{ content }}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+
+        <footer>
+            <p>Part of Summer Research: Recycling AI Agent | University of Michigan-Flint</p>
+        </footer>
     </div>
 </body>
-<div class="footer">
-    <p>Part of Summer Research: Recycling AI Agent | University of Michigan-Flint</p>
-</div>
-
 </html>
