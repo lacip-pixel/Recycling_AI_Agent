@@ -1,0 +1,61 @@
+Item Description,Location,Expected Classification,Predicted,Match,LLM Reason
+Greasy pizza box,"Chicago, IL",trash,compost,❌,"classification: compost
+reason: Greasy pizza boxes are not accepted in curbside recycling bins in Chicago, IL due to the food residue on them. However, they can be composted as the grease will break down naturally in a composting facility."
+Banana peel,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: In San Francisco, banana peels are accepted in curbside compost bins as part of the city's composting program. They can be composted along with other food scraps and yard waste to create nutrient-rich soil for gardening and landscaping."
+Plastic grocery bag,"New York, NY",trash,trash,✅,"classification: trash
+reason: Plastic grocery bags are not accepted in curbside recycling bins in New York City. They can get tangled in recycling machinery and cause issues during the recycling process. It is best to dispose of them in the trash."
+Aluminum can (rinsed),"Seattle, WA",recycle,recycle,✅,"classification: recycle
+reason: Aluminum cans are accepted in curbside recycling bins in Seattle, WA."
+Used napkin with food stains,"Dallas, TX",trash,compost,❌,"classification: compost
+reason: Food-soiled napkins are considered organic waste and can be composted to create nutrient-rich soil."
+Glass bottle (green),"Austin, TX",recycle,recycle,✅,"classification: recycle
+reason: Glass bottles are accepted in curbside recycling bins in Austin, TX."
+Plastic utensils,"Los Angeles, CA",trash,trash,✅,"classification: trash
+reason: Plastic utensils are not accepted in curbside recycling bins in Los Angeles, CA. They are typically made from low-grade plastic that is not easily recyclable and can contaminate the recycling stream. It is best to dispose of them in the trash."
+Cardboard box,"Boston, MA",recycle,recycle,✅,"classification: recycle
+reason: Cardboard boxes are accepted in curbside recycling bins in Boston, MA. They can be recycled into new cardboard products."
+Plastic bottle with cap,"Chicago, IL",recycle,recycle,✅,"classification: recycle
+reason: Plastic bottles with caps are accepted in curbside recycling in Chicago, IL."
+Compostable coffee cup,"Portland, OR",compost,compost,✅,"classification: compost
+reason: Portland, OR accepts compostable coffee cups in their curbside compost bins."
+Foam egg carton,"Phoenix, AZ",trash,trash,✅,"classification: trash
+reason: Foam egg cartons are not accepted in curbside recycling bins in Phoenix, AZ. They should be disposed of in the trash."
+Shredded paper,"Denver, CO",trash,compost,❌,"classification: compost
+reason: Shredded paper is accepted in curbside compost bins in Denver, CO as it can break down and be used as a soil amendment."
+Tea bag,"Charlotte, NC",compost,compost,✅,"classification: compost
+reason: Tea bags are typically made of paper and contain organic material (tea leaves). In Charlotte, NC, organic materials like tea bags can be composted to create nutrient-rich soil for plants."
+Pizza box (clean),"San Diego, CA",recycle,compost,❌,"classification: compost
+reason: In San Diego, clean pizza boxes are accepted in curbside compost bins as they are made of cardboard and can be broken down into compost."
+Expired medicine,"Miami, FL",trash,trash,✅,"classification: trash
+reason: Expired medicine should not be disposed of in curbside bins as it can be harmful to the environment and pose a risk to sanitation workers. It is recommended to properly dispose of expired medicine at a designated drop-off location or through a pharmaceutical take-back program."
+Batteries,"Philadelphia, PA",trash,trash,✅,"classification: trash
+reason: Batteries are not accepted in curbside bins in Philadelphia, PA. They can be harmful to the environment if not disposed of properly. It is recommended to take them to a designated drop-off location for proper recycling."
+Cereal box liner,"Houston, TX",trash,trash,✅,"classification: trash
+reason: Cereal box liners are typically made of waxed or plastic-coated paper, which is not accepted in curbside recycling bins in Houston, TX. They should be disposed of in the trash."
+Paper towel tube,"Minneapolis, MN",recycle,compost,❌,"classification: compost
+reason: Paper towel tubes are made of cardboard, which is compostable. In Minneapolis, cardboard materials are accepted in curbside compost bins."
+Magazine,"Philadelphia, PA",recycle,trash,❌,"classification: trash
+reason: Magazines are not accepted in curbside recycling bins in Philadelphia, PA. They should be disposed of in the trash."
+Plastic takeout container (greasy),"Atlanta, GA",trash,trash,✅,"classification: trash
+reason: Greasy plastic takeout containers are not accepted in curbside recycling bins in Atlanta, GA. The grease can contaminate other recyclables and make them unrecyclable. It should be disposed of in the trash."
+Wooden chopsticks,"Salt Lake City, UT",trash,trash,✅,"classification: trash
+reason: Wooden chopsticks are not accepted in curbside recycling bins in Salt Lake City, UT. They should be disposed of in the trash."
+Broken mirror,"Cleveland, OH",trash,trash,✅,"classification: trash
+reason: Broken mirrors are not accepted in curbside recycling bins in Cleveland, OH. They can be dangerous to handle and can cause injuries to waste management workers. It is best to dispose of broken mirrors in the trash to prevent any accidents."
+Tin can (with label),"Seattle, WA",recycle,trash,❌,"classification: trash
+reason: Tin cans with labels are not accepted in curbside recycling bins in Seattle, WA. The label must be removed before recycling the tin can."
+Compostable fork,"Berkeley, CA",compost,compost,✅,"classification: compost
+reason: Compostable forks are accepted in curbside compost bins in Berkeley, CA."
+Used tissue,"Indianapolis, IN",trash,compost,❌,"classification: compost
+reason: Used tissues are considered organic waste and can be composted to break down naturally."
+Plastic packaging film,"Detroit, MI",trash,trash,✅,"classification: trash
+reason: Plastic packaging film is not accepted in curbside recycling bins in Detroit, MI. It can get tangled in recycling equipment and cause issues at recycling facilities. It should be disposed of in the trash."
+Aluminum foil (clean),"New York, NY",recycle,trash,❌,"classification: trash
+reason: Aluminum foil is not accepted in curbside recycling bins in New York City. It should be disposed of in the trash."
+Aluminum foil (dirty),"New York, NY",trash,trash,✅,"classification: trash
+reason: Dirty aluminum foil is not accepted in curbside recycling bins in New York, NY. It should be disposed of in the trash."
+Empty aerosol can,"Los Angeles, CA",recycle,trash,❌,"classification: trash
+reason: Empty aerosol cans are not accepted in curbside recycling bins in Los Angeles, CA. They should be disposed of in the trash to prevent contamination of the recycling stream."
+Light bulb (incandescent),"San Jose, CA",trash,trash,✅,"classification: trash
+reason: Incandescent light bulbs are not accepted in curbside recycling bins in San Jose, CA. They contain materials that are not recyclable and can be hazardous if broken. It is recommended to dispose of them in the trash."

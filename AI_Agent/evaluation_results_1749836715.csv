@@ -1,0 +1,201 @@
+Item Description,Location,Expected Classification,Predicted,Match,LLM Reason
+Greasy pizza box,"Chicago, IL",trash,compost,❌,"classification: compost
+reason: Greasy pizza boxes are not accepted in curbside recycling bins in Chicago, IL due to the food residue. However, they can be composted as the grease and food particles will break down naturally in a composting facility."
+Clean glass jar,"Denver, CO",recycle,recycle,✅,"classification: recycle
+reason: Clean glass jars are accepted in curbside recycling bins in Denver, CO."
+Banana peel,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: In San Francisco, banana peels are accepted in curbside compost bins as part of the city's composting program. They can be composted along with other food scraps and yard waste to create nutrient-rich soil for gardening and landscaping."
+Plastic grocery bag,"New York, NY",trash,trash,✅,"classification: trash
+reason: Plastic grocery bags are not accepted in curbside recycling bins in New York City. They can get tangled in recycling machinery and cause issues during the recycling process. It is best to dispose of them in the trash."
+Aluminum can (rinsed),"Seattle, WA",recycle,recycle,✅,"classification: recycle
+reason: Aluminum cans are accepted in curbside recycling bins in Seattle, WA."
+Used napkin with food stains,"Dallas, TX",trash,compost,❌,"classification: compost
+reason: Food-soiled napkins are considered organic waste and can be composted to create nutrient-rich soil."
+Apple core,"San Diego, CA",compost,compost,✅,"classification: compost
+reason: Apple cores are organic materials that can be composted to create nutrient-rich soil for plants. In San Diego, organic waste like apple cores can be composted in green waste bins."
+Plastic takeout container (clean),"Miami, FL",recycle,trash,❌,"classification: trash
+reason: Plastic takeout containers are not accepted in curbside recycling bins in Miami, FL. They should be disposed of in the trash."
+Cardboard shipping box,"Atlanta, GA",recycle,recycle,✅,"classification: recycle
+reason: Cardboard shipping boxes are accepted in curbside recycling bins in Atlanta, GA. They can be recycled into new cardboard products."
+Envelope with plastic window,"Houston, TX",trash,trash,✅,"classification: trash
+reason: Envelopes with plastic windows are not accepted in curbside recycling bins in Houston, TX. The plastic window contaminates the paper recycling process."
+Shredded paper,"Raleigh, NC",trash,trash,✅,"classification: trash
+reason: Shredded paper is not accepted in curbside bins in Raleigh, NC as it can clog recycling machinery and cause issues during the sorting process. It is best to dispose of shredded paper in the trash."
+Foam food tray,"Cleveland, OH",trash,trash,✅,"classification: trash
+reason: Foam food trays are not accepted in curbside recycling bins in Cleveland, OH. They are difficult to recycle and can contaminate other recyclables. It is best to dispose of them in the trash."
+Plastic bottle with cap,"Chicago, IL",recycle,recycle,✅,"classification: recycle
+reason: Plastic bottles with caps are accepted in curbside recycling bins in Chicago, IL."
+Compostable plate,"Berkeley, CA",compost,compost,✅,"classification: compost
+reason: Compostable plates are accepted in curbside compost bins in Berkeley, CA."
+Magazine,"Philadelphia, PA",recycle,trash,❌,"classification: trash
+reason: Magazines are not accepted in curbside recycling bins in Philadelphia, PA. They should be disposed of in the trash."
+Styrofoam cup,"Phoenix, AZ",trash,trash,✅,"classification: trash
+reason: Styrofoam is not accepted in curbside recycling bins in Phoenix, AZ. It is not biodegradable and can contaminate other recyclables."
+Milk jug (rinsed),"Indianapolis, IN",recycle,recycle,✅,"classification: recycle
+reason: Milk jugs are typically accepted in curbside recycling bins in Indianapolis, IN. Just make sure it is rinsed out before placing it in the recycling bin."
+Toilet paper roll tube,"Madison, WI",recycle,compost,❌,"classification: compost
+reason: Toilet paper roll tubes are made of cardboard, which is accepted in curbside compost bins in Madison, WI. They can be broken down and turned into compost along with other organic materials."
+Tea bag,"Charlotte, NC",compost,compost,✅,"classification: compost
+reason: Tea bags are typically made of paper and contain organic material (tea leaves). In Charlotte, NC, organic materials like tea bags can be composted to create nutrient-rich soil for plants."
+Crinkly chip bag,"Detroit, MI",trash,trash,✅,"classification: trash
+reason: Crinkly chip bags are not accepted in curbside recycling bins in Detroit, MI. They are typically made of a mix of materials that are difficult to separate and recycle."
+Wooden chopsticks,"Salt Lake City, UT",trash,trash,✅,"classification: trash
+reason: Wooden chopsticks are not accepted in curbside recycling bins in Salt Lake City, UT. They should be disposed of in the trash."
+Plastic utensils,"Los Angeles, CA",trash,trash,✅,"classification: trash
+reason: Plastic utensils are not accepted in curbside recycling bins in Los Angeles, CA. They are typically made from low-grade plastic that is not easily recyclable and can contaminate the recycling stream. It is best to dispose of them in the trash."
+Glass wine bottle,"Boston, MA",recycle,trash,❌,"classification: trash
+reason: Glass wine bottles are not accepted in curbside recycling bins in Boston, MA. They should be disposed of as trash."
+Cereal box,"Portland, OR",recycle,recycle,✅,"classification: recycle
+reason: Cereal boxes are typically accepted in curbside recycling bins in Portland, OR."
+Used paper towel,"Minneapolis, MN",trash,trash,✅,"classification: trash
+reason: Used paper towels are not accepted in curbside recycling bins in Minneapolis, MN. They are considered contaminated with food waste and cannot be recycled."
+Greasy pizza box,"Chicago, IL",trash,compost,❌,"classification: compost
+reason: Greasy pizza boxes are not accepted in curbside recycling bins in Chicago, IL due to the food residue and grease contamination. However, they can be composted as the cardboard material can break down naturally in a composting facility."
+Clean glass jar,"Denver, CO",recycle,recycle,✅,"classification: recycle
+reason: Clean glass jars are accepted in curbside recycling bins in Denver, CO."
+Banana peel,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: In San Francisco, banana peels are accepted in curbside compost bins as part of the city's composting program. Composting organic materials like banana peels helps reduce waste sent to landfills and can be turned into nutrient-rich compost for gardens and landscaping."
+Plastic grocery bag,"New York, NY",trash,trash,✅,"classification: trash
+reason: Plastic grocery bags are not accepted in curbside recycling bins in New York City. They can get tangled in recycling machinery and cause issues during the recycling process. It is best to dispose of them in the trash."
+Aluminum can (rinsed),"Seattle, WA",recycle,recycle,✅,"classification: recycle
+reason: Aluminum cans are accepted in curbside recycling bins in Seattle, WA."
+Used napkin with food stains,"Dallas, TX",trash,compost,❌,"classification: compost
+reason: Food-soiled napkins are considered organic waste and can be composted to create nutrient-rich soil."
+Apple core,"San Diego, CA",compost,compost,✅,"classification: compost
+reason: Apple cores are organic materials that can be composted to create nutrient-rich soil for plants. They are not accepted in curbside bins for recycling, but can be composted at home or at a composting facility."
+Plastic takeout container (clean),"Miami, FL",recycle,trash,❌,"classification: trash
+reason: Plastic takeout containers are not accepted in curbside recycling bins in Miami, FL. They should be disposed of as trash."
+Cardboard shipping box,"Atlanta, GA",recycle,recycle,✅,"classification: recycle
+reason: Cardboard shipping boxes are accepted in curbside recycling bins in Atlanta, GA. They can be recycled into new cardboard products."
+Envelope with plastic window,"Houston, TX",trash,trash,✅,"classification: trash
+reason: Envelopes with plastic windows are not accepted in curbside recycling bins in Houston, TX. The plastic window contaminates the paper recycling process."
+Shredded paper,"Raleigh, NC",trash,trash,✅,"classification: trash
+reason: Shredded paper is not accepted in curbside bins in Raleigh, NC. It is too small and can cause issues with the recycling process. It should be disposed of in the trash."
+Foam food tray,"Cleveland, OH",trash,trash,✅,"classification: trash
+reason: Foam food trays are not accepted in curbside recycling bins in Cleveland, OH. They are difficult to recycle and can contaminate other recyclables. It is best to dispose of them in the trash."
+Plastic bottle with cap,"Chicago, IL",recycle,recycle,✅,"classification: recycle
+reason: Plastic bottles with caps are accepted in curbside recycling in Chicago, IL."
+Compostable plate,"Berkeley, CA",compost,compost,✅,"classification: compost
+reason: Compostable plates are accepted in curbside compost bins in Berkeley, CA."
+Magazine,"Philadelphia, PA",recycle,recycle,✅,"classification: recycle
+reason: Magazines are accepted in curbside recycling bins in Philadelphia, PA."
+Styrofoam cup,"Phoenix, AZ",trash,trash,✅,"classification: trash
+reason: Styrofoam is not accepted in curbside recycling bins in Phoenix, AZ. It should be disposed of in the trash."
+Milk jug (rinsed),"Indianapolis, IN",recycle,recycle,✅,"classification: recycle
+reason: Milk jugs are typically accepted in curbside recycling bins in Indianapolis, IN. Just make sure it is rinsed out before placing it in the bin."
+Toilet paper roll tube,"Madison, WI",recycle,compost,❌,"classification: compost
+reason: Toilet paper roll tubes are made of cardboard, which is accepted in curbside compost bins in Madison, WI. They can be broken down and turned into compost along with other organic materials."
+Tea bag,"Charlotte, NC",compost,compost,✅,"classification: compost
+reason: Tea bags are typically made of paper and contain organic material (tea leaves). In Charlotte, NC, organic materials like tea bags can be composted to create nutrient-rich soil for plants."
+Crinkly chip bag,"Detroit, MI",trash,trash,✅,"classification: trash
+reason: Crinkly chip bags are typically not accepted in curbside recycling bins in Detroit, MI. They are made of a mixed material that is difficult to recycle and can contaminate other recyclables. It is best to dispose of them in the trash."
+Wooden chopsticks,"Salt Lake City, UT",trash,trash,✅,"classification: trash
+reason: Wooden chopsticks are not accepted in curbside recycling bins in Salt Lake City, UT. They should be disposed of in the trash."
+Plastic utensils,"Los Angeles, CA",trash,trash,✅,"classification: trash
+reason: Plastic utensils are not accepted in curbside recycling bins in Los Angeles, CA. They are typically made from low-grade plastic that is not easily recyclable and can contaminate the recycling stream. It is best to dispose of them in the trash."
+Glass wine bottle,"Boston, MA",recycle,trash,❌,"classification: trash
+reason: Glass wine bottles are not accepted in curbside recycling bins in Boston, MA. They should be disposed of as trash."
+Cereal box,"Portland, OR",recycle,recycle,✅,"classification: recycle
+reason: Cereal boxes are typically accepted in curbside recycling bins in Portland, OR. They are made of cardboard which is a recyclable material."
+Used paper towel,"Minneapolis, MN",trash,trash,✅,"classification: trash
+reason: Used paper towels are not accepted in curbside recycling bins in Minneapolis, MN. They are considered contaminated with food waste and cannot be recycled."
+Greasy pizza box,"Chicago, IL",trash,compost,❌,"classification: compost
+reason: Greasy pizza boxes are not accepted in curbside recycling bins in Chicago, IL due to the food residue on them. However, they can be composted as the grease and food particles will break down naturally in a composting facility."
+Clean glass jar,"Denver, CO",recycle,recycle,✅,"classification: recycle
+reason: Clean glass jars are accepted in curbside recycling bins in Denver, CO."
+Banana peel,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: In San Francisco, banana peels are accepted in curbside compost bins as part of the city's composting program. They can be composted along with other food scraps and yard waste to create nutrient-rich soil for gardening and landscaping."
+Plastic grocery bag,"New York, NY",trash,trash,✅,"classification: trash
+reason: Plastic grocery bags are not accepted in curbside recycling bins in New York City. They can get tangled in recycling machinery and cause issues during the recycling process. It is best to dispose of them in the trash."
+Aluminum can (rinsed),"Seattle, WA",recycle,recycle,✅,"classification: recycle
+reason: Aluminum cans are accepted in curbside recycling bins in Seattle, WA."
+Used napkin with food stains,"Dallas, TX",trash,compost,❌,"classification: compost
+reason: Food-soiled napkins are considered organic waste and can be composted to create nutrient-rich soil."
+Apple core,"San Diego, CA",compost,compost,✅,"classification: compost
+reason: Apple cores are organic materials that can be composted to create nutrient-rich soil for plants. In San Diego, organic waste like apple cores can be composted in green waste bins."
+Plastic takeout container (clean),"Miami, FL",recycle,trash,❌,"classification: trash
+reason: Plastic takeout containers are not accepted in curbside recycling bins in Miami, FL. They should be disposed of as trash."
+Cardboard shipping box,"Atlanta, GA",recycle,recycle,✅,"classification: recycle
+reason: Cardboard shipping boxes are accepted in curbside recycling bins in Atlanta, GA. They can be recycled into new cardboard products."
+Envelope with plastic window,"Houston, TX",trash,trash,✅,"classification: trash
+reason: Envelopes with plastic windows are not accepted in curbside recycling bins in Houston, TX. The plastic window contaminates the paper recycling process."
+Shredded paper,"Raleigh, NC",trash,trash,✅,"classification: trash
+reason: Shredded paper is not accepted in curbside bins in Raleigh, NC. It is too small and can cause issues with the recycling sorting process. It is best to dispose of shredded paper in the trash."
+Foam food tray,"Cleveland, OH",trash,trash,✅,"classification: trash
+reason: Foam food trays are not accepted in curbside recycling bins in Cleveland, OH. They are not biodegradable and can contaminate recycling streams. It is best to dispose of them in the trash."
+Plastic bottle with cap,"Chicago, IL",recycle,recycle,✅,"classification: recycle
+reason: Plastic bottles with caps are accepted in curbside recycling bins in Chicago, IL."
+Compostable plate,"Berkeley, CA",compost,compost,✅,"classification: compost
+reason: Compostable plates are accepted in curbside compost bins in Berkeley, CA."
+Magazine,"Philadelphia, PA",recycle,trash,❌,"classification: trash
+reason: Magazines are not accepted in curbside recycling bins in Philadelphia, PA. They should be disposed of as trash."
+Styrofoam cup,"Phoenix, AZ",trash,trash,✅,"classification: trash
+reason: Styrofoam is not accepted in curbside recycling bins in Phoenix, AZ. It is not biodegradable and can contaminate recycling streams."
+Milk jug (rinsed),"Indianapolis, IN",recycle,recycle,✅,"classification: recycle
+reason: Milk jugs are typically accepted in curbside recycling bins in Indianapolis, IN. Just make sure it is rinsed out before placing it in the recycling bin."
+Toilet paper roll tube,"Madison, WI",recycle,compost,❌,"classification: compost
+reason: Toilet paper roll tubes are made of cardboard, which is accepted in curbside compost bins in Madison, WI. They can be broken down and turned into compost along with other organic materials."
+Tea bag,"Charlotte, NC",compost,compost,✅,"classification: compost
+reason: Tea bags are typically made of paper and contain organic material (tea leaves). In Charlotte, NC, organic materials like tea bags can be composted to create nutrient-rich soil for plants."
+Crinkly chip bag,"Detroit, MI",trash,trash,✅,"classification: trash
+reason: Crinkly chip bags are typically not accepted in curbside recycling bins in Detroit, MI. They are made of a mixed material that is difficult to recycle."
+Wooden chopsticks,"Salt Lake City, UT",trash,trash,✅,"classification: trash
+reason: Wooden chopsticks are not accepted in curbside recycling bins in Salt Lake City, UT. They should be disposed of in the trash."
+Plastic utensils,"Los Angeles, CA",trash,trash,✅,"classification: trash
+reason: Plastic utensils are not accepted in curbside recycling bins in Los Angeles, CA. They are typically made from low-grade plastic that is not easily recyclable and can contaminate the recycling stream. It is best to dispose of them in the trash."
+Glass wine bottle,"Boston, MA",recycle,trash,❌,"classification: trash
+reason: Glass wine bottles are not accepted in curbside recycling bins in Boston, MA. They should be disposed of as trash."
+Cereal box,"Portland, OR",recycle,recycle,✅,"classification: recycle
+reason: Cereal boxes are typically accepted in curbside recycling bins in Portland, OR. They are made of cardboard which is a recyclable material."
+Used paper towel,"Minneapolis, MN",trash,trash,✅,"classification: trash
+reason: Used paper towels are not accepted in curbside recycling bins in Minneapolis, MN. They are typically contaminated with food residue and cannot be recycled. It is best to dispose of them in the trash."
+Greasy pizza box,"Chicago, IL",trash,compost,❌,"classification: compost
+reason: Greasy pizza boxes are not accepted in curbside recycling bins in Chicago, IL due to the food residue contaminating the recycling process. However, they can be composted as the grease and food particles will break down naturally in a composting facility."
+Clean glass jar,"Denver, CO",recycle,recycle,✅,"classification: recycle
+reason: Clean glass jars are accepted in curbside recycling bins in Denver, CO."
+Banana peel,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: In San Francisco, banana peels are accepted in curbside compost bins as part of the city's composting program. They can be composted along with other food scraps and yard waste to create nutrient-rich soil for gardening and landscaping."
+Plastic grocery bag,"New York, NY",trash,trash,✅,"classification: trash
+reason: Plastic grocery bags are not accepted in curbside recycling bins in New York City. They can get tangled in recycling machinery and cause issues during the recycling process. It is best to dispose of them in the trash."
+Aluminum can (rinsed),"Seattle, WA",recycle,recycle,✅,"classification: recycle
+reason: Aluminum cans are accepted in curbside recycling bins in Seattle, WA."
+Used napkin with food stains,"Dallas, TX",trash,compost,❌,"classification: compost
+reason: Food-soiled napkins are considered organic waste and can be composted to create nutrient-rich soil for plants."
+Apple core,"San Diego, CA",compost,compost,✅,"classification: compost
+reason: Apple cores are organic materials that can be composted to create nutrient-rich soil for plants. They are not accepted in curbside recycling bins in San Diego, so they should be composted instead."
+Plastic takeout container (clean),"Miami, FL",recycle,trash,❌,"classification: trash
+reason: Plastic takeout containers are not accepted in curbside recycling bins in Miami, FL. They should be disposed of as trash."
+Cardboard shipping box,"Atlanta, GA",recycle,recycle,✅,"classification: recycle
+reason: Cardboard shipping boxes are accepted in curbside recycling bins in Atlanta, GA. They can be recycled into new cardboard products."
+Envelope with plastic window,"Houston, TX",trash,trash,✅,"classification: trash
+reason: Envelopes with plastic windows are not accepted in curbside recycling bins in Houston, TX. The plastic window contaminates the paper recycling process."
+Shredded paper,"Raleigh, NC",trash,trash,✅,"classification: trash
+reason: Shredded paper is not accepted in curbside bins in Raleigh, NC. It is too small and can cause issues with the recycling process. It should be disposed of in the trash."
+Foam food tray,"Cleveland, OH",trash,trash,✅,"classification: trash
+reason: Foam food trays are not accepted in curbside recycling bins in Cleveland, OH. They are typically made of expanded polystyrene (EPS) which is not easily recyclable and can contaminate other recyclables. It is best to dispose of foam food trays in the trash."
+Plastic bottle with cap,"Chicago, IL",recycle,recycle,✅,"classification: recycle
+reason: Plastic bottles with caps are accepted in curbside recycling bins in Chicago, IL."
+Compostable plate,"Berkeley, CA",compost,compost,✅,"classification: compost
+reason: Compostable plates are accepted in curbside compost bins in Berkeley, CA."
+Magazine,"Philadelphia, PA",recycle,trash,❌,"classification: trash
+reason: Magazines are not accepted in curbside recycling bins in Philadelphia, PA. They should be disposed of in the trash."
+Styrofoam cup,"Phoenix, AZ",trash,trash,✅,"classification: trash
+reason: Styrofoam is not accepted in curbside recycling bins in Phoenix, AZ. It is not biodegradable and can contaminate other recyclables."
+Milk jug (rinsed),"Indianapolis, IN",recycle,recycle,✅,"classification: recycle
+reason: Milk jugs are typically accepted in curbside recycling bins in Indianapolis, IN. Just make sure it is rinsed out before placing it in the bin."
+Toilet paper roll tube,"Madison, WI",recycle,compost,❌,"classification: compost
+reason: Toilet paper roll tubes are made of cardboard, which is accepted in curbside compost bins in Madison, WI. They can be broken down and turned into compost along with other organic materials."
+Tea bag,"Charlotte, NC",compost,compost,✅,"classification: compost
+reason: Tea bags are typically made of paper and contain organic material (tea leaves). In Charlotte, NC, organic materials like tea bags can be composted to create nutrient-rich soil for plants."
+Crinkly chip bag,"Detroit, MI",trash,trash,✅,"classification: trash
+reason: Crinkly chip bags are typically not accepted in curbside recycling bins in Detroit, MI. They are made of a mixed material that is difficult to recycle and can contaminate other recyclables. It is best to dispose of them in the trash."
+Wooden chopsticks,"Salt Lake City, UT",trash,trash,✅,"classification: trash
+reason: Wooden chopsticks are not accepted in curbside recycling bins in Salt Lake City, UT. They should be disposed of in the trash."
+Plastic utensils,"Los Angeles, CA",trash,trash,✅,"classification: trash
+reason: Plastic utensils are not accepted in curbside recycling bins in Los Angeles, CA. They are typically made from low-grade plastic that is not easily recyclable and can contaminate the recycling stream. It is best to dispose of them in the trash."
+Glass wine bottle,"Boston, MA",recycle,trash,❌,"classification: trash
+reason: Glass wine bottles are not accepted in curbside recycling bins in Boston, MA. They should be disposed of as trash."
+Cereal box,"Portland, OR",recycle,recycle,✅,"classification: recycle
+reason: Cereal boxes are typically accepted in curbside recycling bins in Portland, OR. They are made of cardboard which can be recycled into new paper products."
+Used paper towel,"Minneapolis, MN",trash,trash,✅,"classification: trash
+reason: Used paper towels are not accepted in curbside recycling bins in Minneapolis, MN. They are considered contaminated with food waste and cannot be recycled. It should be disposed of in the trash."

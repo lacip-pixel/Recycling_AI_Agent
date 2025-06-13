@@ -1,26 +1,261 @@
 Item Description,Location,Expected Classification,Predicted,Match,LLM Reason
-Greasy pizza box,"Chicago, IL",trash,trash,✅,"reason: the greasy pizza box is contaminated with food residue, making it unsuitable for recycling. it should be disposed of in the regular trash."
-Clean glass jar,"Denver, CO",recycle,recycle,✅,reason: the clean glass jar falls under the category of glass bottles and jars that denver residents are required to recycle.
-Banana peel,"San Francisco, CA",compost,compost,✅,reason: banana peels are considered organic waste and can be composted to create nutrient-rich soil for gardening and landscaping.
-Wax-lined milk carton,"Austin, TX",trash,recycle,❌,reason: the wax-lined milk carton is made of paperboard and can be recycled as paper/cardboard in austin's recycling program.
-Plastic grocery bag,"New York, NY",trash,recycle,❌,"reason: plastic bags are not accepted in curbside recycling bins, but residents are encouraged to bring them to designated drop-off locations for recycling."
-Paper coffee cup (with lining),"Portland, OR",trash,trash,✅,"reason: the paper coffee cup with lining is contaminated with a thin layer of plastic or wax, making it unsuitable for recycling in the mixed paper category."
-Aluminum can (rinsed),"Seattle, WA",recycle,recycle,✅,"reason: the aluminum can is a recyclable material and is clean, meeting the requirements for curbside recycling collection in seattle."
-Used aluminum foil (dirty),"Boston, MA",trash,trash,✅,"reason: the used aluminum foil is contaminated with dirt, making it unsuitable for recycling. it should be disposed of in the trash."
-Plastic clamshell container,"Los Angeles, CA",recycle,recycle,✅,"reason: the plastic clamshell container is made of polystyrene, which is a type of plastic that can be recycled. additionally, the item is clean and free of contamination, making it suitable for recycling according to the rules provided."
-Crinkly chip bag,"Detroit, MI",trash,trash,✅,"reason: the crinkly chip bag is made of aluminum foil coated with plastic, which is not accepted for recycling in detroit. residents are encouraged to dispose of this item in the regular trash."
-Compostable fork,"Berkeley, CA",compost,compost,✅,"reason: the compostable fork is made of pla, which is a compostable material. it should be placed in the green compost bin for collection."
-Styrofoam cup,"Phoenix, AZ",trash,trash,✅,reason: styrofoam is not accepted in the curbside recycling program in phoenix. residents are encouraged to take styrofoam to a local drop-off location for proper disposal.
-Cardboard shipping box,"Atlanta, GA",recycle,recycle,✅,"reason: the cardboard shipping box is made of cardboard, which is a recyclable material. it is clean and can be flattened before being placed in the designated recycling bin provided by the city."
-Eggshells,"Minneapolis, MN",compost,compost,✅,reason: eggshells are organic material and can be composted to create nutrient-rich soil for gardening.
-Magazine,"Philadelphia, PA",recycle,recycle,✅,"reason: magazines are made of paper, which is a recyclable material according to the recycling rules for philadelphia residents. the magazine is clean and free of contamination, making it suitable for recycling."
-Used napkin with food stains,"Dallas, TX",trash,trash,✅,reason: the used napkin with food stains is contaminated and cannot be recycled. it should be disposed of in the trash.
-Apple core,"San Diego, CA",compost,compost,✅,reason: the apple core is organic waste and can be composted to create nutrient-rich soil for plants.
-Plastic takeout container (clean),"Miami, FL",recycle,recycle,✅,"reason: the plastic takeout container is made of polypropylene, which is a recyclable material. it is clean and meets the guidelines for the mandatory recycling program in miami-dade county."
-Toilet paper roll tube,"Madison, WI",recycle,recycle,✅,"reason: the toilet paper roll tube is made of cardboard, which is a recyclable material. since it is clean and free of contamination, it can be placed in the designated recycling container for collection in accordance with the city's recycling rules."
-Wooden chopsticks,"Salt Lake City, UT",trash,recycle,❌,"reason: wooden chopsticks are made of wood, which is a recyclable material. since the chopsticks are clean and not contaminated, they can be placed in the blue recycling bin provided by the city for recycling."
-Milk jug (rinsed),"Indianapolis, IN",recycle,recycle,✅,"reason: the milk jug is made of hdpe, which is a type of plastic that is accepted for recycling in indianapolis. additionally, the jug is clean and meets the guidelines for acceptable recyclable materials."
-Tea bag,"Charlotte, NC",compost,recycle,❌,"reason: the tea bag is made of paper fiber, which is an accepted material for recycling in charlotte. the small amount of plastic for the sealant should not be a problem as long as the item is clean and free of contamination."
-Envelope with plastic window,"Houston, TX",trash,trash,✅,reason: the envelope with a plastic window is contaminated and cannot be recycled due to the plastic component. it should be disposed of in the regular trash.
-Shredded paper,"Raleigh, NC",trash,trash,✅,reason: shredded paper is not accepted in the recycling program in raleigh and should be disposed of in the trash.
-Foam food tray,"Cleveland, OH",trash,trash,✅,reason: polystyrene foam is not accepted in curbside recycling bins in cleveland. residents should dispose of foam food trays in the regular trash.
+Used napkin with food stains,"Miami, FL",trash,trash,✅,"classification: trash
+reason: Miami does not accept greasy or soiled paper in their curbside compost program. Used napkins with food stains should be disposed of in the trash."
+Paper towel roll tube,"New York, NY",recycle,recycle,✅,"classification: recycle
+reason: In New York City, paper towel roll tubes are accepted in the curbside recycling program as long as they are clean and dry."
+Paper towel roll tube,"Seattle, WA",recycle,recycle,✅,"classification: recycle
+reason: Seattle accepts paper towel roll tubes in curbside recycling as they are made of cardboard, which is recyclable in the city's program."
+Compostable fork,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: San Francisco accepts certified compostable items like utensils in their curbside compost program."
+Wooden chopsticks,"Chicago, IL",compost,trash,❌,"classification: trash
+reason: Chicago does not accept wooden chopsticks in their curbside recycling or compost program. They should be disposed of in the trash."
+Cereal box,"San Francisco, CA",recycle,recycle,✅,"classification: recycle
+reason: San Francisco accepts clean cardboard and paper products in the curbside recycling program."
+Plastic grocery bag,"Minneapolis, MN",trash,trash,✅,"classification: trash
+reason: Plastic bags are not accepted in Minneapolis' curbside recycling program. They can be recycled at designated drop-off locations instead."
+Used napkin with food stains,"Seattle, WA",trash,compost,❌,"classification: compost
+reason: Seattle's curbside compost program accepts food-soiled paper products like napkins, along with food waste."
+Food scraps,"Miami, FL",compost,compost,✅,"classification: compost
+reason: Miami does not have a curbside composting program, but residents can compost food scraps at home or drop them off at designated composting facilities."
+Plastic utensils,"Denver, CO",trash,trash,✅,"classification: trash
+reason: Denver does not accept plastic utensils in their curbside recycling program. They should be disposed of in the trash."
+Batteries,"Charlotte, NC",trash,trash,✅,"classification: trash
+reason: Batteries are considered hazardous waste and should not be disposed of in curbside recycling or compost bins in Charlotte, NC. They should be taken to a designated drop-off location for proper disposal."
+Paper towel roll tube,"San Francisco, CA",recycle,recycle,✅,"classification: recycle
+reason: San Francisco accepts paper towel roll tubes in the curbside recycling program as they are made of cardboard, which is recyclable in the city."
+Used paper towel,"New York, NY",compost,trash,❌,"classification: trash
+reason: New York City does not accept used paper towels in curbside compost or recycling programs. They should be disposed of in the trash."
+Glass wine bottle,"Atlanta, GA",recycle,recycle,✅,"classification: recycle
+reason: In Atlanta, glass bottles are accepted for curbside recycling."
+Milk jug (rinsed),"Austin, TX",recycle,recycle,✅,"classification: recycle
+reason: Austin, TX accepts rinsed milk jugs for recycling in the curbside program."
+Foam egg carton,"Austin, TX",trash,trash,✅,"classification: trash
+reason: Austin does not accept foam egg cartons in their curbside recycling program. They should be disposed of in the trash."
+Compostable fork,"Dallas, TX",compost,trash,❌,"classification: trash
+reason: Dallas does not accept compostable utensils in their curbside compost program. They should be disposed of in the trash."
+Expired medicine,"Madison, WI",trash,trash,✅,"classification: trash
+reason: Expired medicine should not be disposed of in the curbside recycling or compost bins in Madison, WI. It is recommended to take expired medicine to a local pharmacy for proper disposal."
+Compostable coffee cup,"Miami, FL",compost,trash,❌,"classification: trash
+reason: Miami does not currently have a curbside compost program that accepts compostable items like coffee cups. Therefore, compostable coffee cups should be disposed of in the trash in Miami, FL."
+Broken mirror,"Portland, OR",trash,trash,✅,"classification: trash
+reason: Broken mirrors are not accepted in Portland's curbside recycling program as they pose a safety hazard to waste management workers. They should be disposed of in the trash."
+Used napkin with food stains,"Boston, MA",trash,trash,✅,"classification: trash
+reason: Boston does not accept greasy or soiled paper in their curbside compost program. Used napkins with food stains should be disposed of in the trash."
+Tin can (with label),"Phoenix, AZ",recycle,recycle,✅,"classification: recycle
+reason: Phoenix accepts tin cans with labels in their curbside recycling program."
+Used napkin with food stains,"Denver, CO",trash,trash,✅,"classification: trash
+reason: Denver does not accept greasy or soiled paper in their curbside compost program. Used napkins with food stains should be disposed of in the trash."
+Milk jug (rinsed),"Madison, WI",recycle,recycle,✅,"classification: recycle
+reason: Madison, WI accepts rinsed milk jugs for curbside recycling."
+Foam egg carton,"New York, NY",trash,trash,✅,"classification: trash
+reason: New York City does not accept foam products in curbside recycling. Foam egg cartons should be disposed of in the trash."
+Plastic grocery bag,"Dallas, TX",trash,trash,✅,"classification: trash
+reason: Plastic bags are not accepted in Dallas's curbside recycling program. They can be recycled at participating retail locations instead."
+Cereal box,"Portland, OR",recycle,recycle,✅,"classification: recycle
+reason: Portland accepts clean cardboard like cereal boxes in their curbside recycling program."
+Tea bag,"Chicago, IL",compost,trash,❌,"classification: trash
+reason: Chicago does not accept tea bags in their curbside compost program. Tea bags should be disposed of in the trash."
+Aluminum can (rinsed),"Madison, WI",recycle,recycle,✅,"classification: recycle
+reason: Madison, WI accepts clean aluminum cans for recycling in their curbside program."
+Compostable coffee cup,"Salt Lake City, UT",compost,trash,❌,"classification: trash
+reason: Salt Lake City does not accept compostable items in their curbside compost program. Compostable coffee cups should be disposed of in the trash in this city."
+Tea bag,"Charlotte, NC",compost,trash,❌,"classification: trash
+reason: Tea bags are not accepted in Charlotte's curbside compost program as they often contain plastic and are considered a contaminant in compost. They should be disposed of in the trash."
+Styrofoam cup,"Minneapolis, MN",trash,trash,✅,"classification: trash
+reason: Styrofoam is not accepted in Minneapolis' curbside recycling program. It should be disposed of in the trash."
+Plastic bottle with cap,"Seattle, WA",recycle,recycle,✅,"classification: recycle
+reason: Seattle accepts plastic bottles with caps for recycling in their curbside program."
+Aluminum can (rinsed),"Austin, TX",recycle,recycle,✅,"classification: recycle
+reason: Austin, TX accepts clean aluminum cans for recycling in their curbside program."
+Milk jug (rinsed),"Austin, TX",recycle,recycle,✅,"classification: recycle
+reason: Austin, TX accepts rinsed milk jugs for recycling in the curbside program."
+Plastic utensils,"Los Angeles, CA",trash,trash,✅,"classification: trash
+reason: Los Angeles does not accept plastic utensils in curbside recycling. They should be disposed of in the trash."
+Expired medicine,"Phoenix, AZ",trash,trash,✅,"classification: trash
+reason: Phoenix does not accept expired medicine in curbside recycling or compost programs. It should be properly disposed of at a designated drop-off location for hazardous waste."
+Expired medicine,"Charlotte, NC",trash,trash,✅,"classification: trash
+reason: Charlotte, NC does not accept expired medicine in curbside recycling or compost programs. It should be properly disposed of at a designated drop-off location for hazardous waste."
+Magazine,"Denver, CO",recycle,recycle,✅,"classification: recycle
+reason: Denver accepts magazines for recycling in the curbside program."
+Greasy pizza box,"Minneapolis, MN",trash,trash,✅,"classification: trash
+reason: Minneapolis does not accept greasy or soiled paper in their curbside compost program. Greasy pizza boxes should be thrown in the trash."
+Tea bag,"Portland, OR",compost,trash,❌,"classification: trash
+reason: Portland's curbside compost program does not accept tea bags, as they often contain plastic and are not considered compostable. It should be disposed of in the trash."
+Glass wine bottle,"Portland, OR",recycle,recycle,✅,"classification: recycle
+reason: Portland accepts glass bottles for curbside recycling."
+Corn husks,"Charlotte, NC",compost,compost,✅,"classification: compost
+reason: Charlotte, NC accepts corn husks in their curbside compost program as they are considered organic waste."
+Batteries,"Boston, MA",trash,trash,✅,"classification: trash
+reason: Batteries are considered hazardous waste and should not be disposed of in curbside recycling or compost bins in Boston. They should be taken to a designated drop-off location for proper disposal."
+Cereal box,"Minneapolis, MN",recycle,recycle,✅,"classification: recycle
+reason: In Minneapolis, cereal boxes are accepted in curbside recycling programs as they are made of cardboard which is recyclable."
+Wooden chopsticks,"San Francisco, CA",compost,trash,❌,"classification: trash
+reason: San Francisco does not accept wooden chopsticks in their curbside compost program. They should be disposed of in the trash."
+Broken mirror,"Charlotte, NC",trash,trash,✅,"classification: trash
+reason: Broken mirrors are not accepted in curbside recycling in Charlotte, NC. They should be disposed of in the trash to prevent injury to waste management workers."
+Magazine,"Atlanta, GA",recycle,recycle,✅,"classification: recycle
+reason: In Atlanta, magazines are accepted in curbside recycling programs as they are considered paper products."
+Plastic grocery bag,"Charlotte, NC",trash,trash,✅,"classification: trash
+reason: Plastic bags are not accepted in curbside recycling programs in Charlotte, NC. They can be recycled at designated drop-off locations such as grocery stores."
+Batteries,"Madison, WI",trash,trash,✅,"classification: trash
+reason: Batteries are considered hazardous waste and should not be disposed of in curbside recycling or compost bins in Madison, WI. They should be taken to a designated drop-off location for proper disposal."
+Wooden chopsticks,"Portland, OR",compost,trash,❌,"classification: trash
+reason: Portland's curbside recycling program does not accept wooden chopsticks. They should be disposed of in the trash."
+Plastic grocery bag,"Minneapolis, MN",trash,trash,✅,"classification: trash
+reason: Plastic bags are not accepted in Minneapolis's curbside recycling program. They can be recycled at designated drop-off locations instead."
+Plastic grocery bag,"Charlotte, NC",trash,trash,✅,"classification: trash
+reason: Plastic bags are not accepted in curbside recycling programs in Charlotte, NC. They can be recycled at designated drop-off locations such as grocery stores."
+Banana peel,"Dallas, TX",compost,compost,✅,"classification: compost
+reason: Dallas does not have a curbside composting program, but banana peels are accepted in backyard compost bins."
+Paper towel roll tube,"Minneapolis, MN",recycle,recycle,✅,"classification: recycle
+reason: In Minneapolis, paper towel roll tubes are accepted in curbside recycling as they are made of cardboard, which is recyclable in the city's recycling program."
+Clean glass jar,"Minneapolis, MN",recycle,recycle,✅,"classification: recycle
+reason: Minneapolis accepts clean glass jars for recycling in the curbside program."
+Glass wine bottle,"Portland, OR",recycle,recycle,✅,"classification: recycle
+reason: Portland accepts glass bottles for recycling in their curbside program."
+Crinkly chip bag,"Portland, OR",trash,trash,✅,"classification: trash
+reason: In Portland, crinkly chip bags are not accepted for recycling due to the difficulty in separating the materials. They should be placed in the trash."
+Foam egg carton,"Denver, CO",trash,trash,✅,"classification: trash
+reason: Denver does not accept foam egg cartons in their curbside recycling program. They should be disposed of in the trash."
+Tin can (with label),"Austin, TX",recycle,recycle,✅,"classification: recycle
+reason: In Austin, tin cans with labels are accepted in the curbside recycling program."
+Compostable coffee cup,"Dallas, TX",compost,trash,❌,"classification: trash
+reason: Dallas does not currently have a curbside compost program, so compostable items like coffee cups should be disposed of in the trash."
+Styrofoam cup,"Chicago, IL",trash,trash,✅,"classification: trash
+reason: Styrofoam is not accepted in Chicago's curbside recycling program. It should be disposed of in the trash."
+Wooden chopsticks,"Madison, WI",compost,trash,❌,"classification: trash
+reason: Madison, WI does not accept wooden chopsticks in their curbside recycling or compost program. They should be disposed of in the trash."
+Used napkin with food stains,"Cleveland, OH",trash,trash,✅,"classification: trash
+reason: Cleveland does not accept greasy or soiled paper in their curbside compost program. Used napkins with food stains should be disposed of in the trash."
+Wooden chopsticks,"Philadelphia, PA",compost,trash,❌,"classification: trash
+reason: Philadelphia does not accept wooden chopsticks in curbside recycling or compost programs. They should be disposed of in the trash."
+Plastic utensils,"Los Angeles, CA",trash,trash,✅,"classification: trash
+reason: Los Angeles does not accept plastic utensils in curbside recycling or compost programs. They should be disposed of in the trash."
+Compostable coffee cup,"Salt Lake City, UT",compost,trash,❌,"classification: trash
+reason: Salt Lake City does not accept compostable items in their curbside compost program. Compostable coffee cups should be disposed of in the trash."
+Crinkly chip bag,"Los Angeles, CA",trash,trash,✅,"classification: trash
+reason: In Los Angeles, crinkly chip bags are not accepted in curbside recycling due to the difficulty in separating the materials for recycling. They should be disposed of in the trash."
+Plastic utensils,"Austin, TX",trash,trash,✅,"classification: trash
+reason: Austin does not accept plastic utensils in their curbside recycling program. They should be disposed of in the trash."
+Wooden chopsticks,"San Francisco, CA",compost,trash,❌,"classification: trash
+reason: San Francisco does not accept wooden chopsticks in their curbside compost program. They should be disposed of in the trash."
+Clean glass jar,"Austin, TX",recycle,recycle,✅,"classification: recycle
+reason: Austin, TX accepts clean glass jars for recycling in their curbside program."
+Greasy pizza box,"Phoenix, AZ",trash,trash,✅,"classification: trash
+reason: Phoenix does not accept greasy or soiled paper in their curbside compost program. Greasy pizza boxes should be thrown in the trash."
+Greasy pizza box,"Dallas, TX",trash,trash,✅,"classification: trash
+reason: Dallas does not accept greasy or soiled paper in their curbside compost program. Greasy pizza boxes should be disposed of in the trash."
+Batteries,"New York, NY",trash,trash,✅,"classification: trash
+reason: Batteries are considered hazardous waste and should not be disposed of in curbside recycling or compost bins in New York City. They should be taken to designated drop-off locations for proper disposal."
+Broken mirror,"Atlanta, GA",trash,trash,✅,"classification: trash
+reason: Broken mirrors are not accepted in Atlanta's curbside recycling program as they pose a safety hazard to sanitation workers. They should be disposed of in the trash."
+Tea bag,"Charlotte, NC",compost,trash,❌,"classification: trash
+reason: Tea bags are not accepted in Charlotte's curbside compost program as they often contain plastic and are considered a contaminant in the composting process. It is best to dispose of tea bags in the trash."
+Compostable fork,"Dallas, TX",compost,trash,❌,"classification: trash
+reason: Dallas does not accept compostable utensils in their curbside compost program. They should be disposed of in the trash."
+Banana peel,"Dallas, TX",compost,compost,✅,"classification: compost
+reason: Dallas does not have a curbside compost program, but banana peels are accepted in backyard composting systems."
+Corn husks,"Phoenix, AZ",compost,compost,✅,"classification: compost
+reason: Phoenix does not accept corn husks in their curbside recycling program, but they can be composted as organic waste."
+Used paper towel,"Dallas, TX",compost,trash,❌,"classification: trash
+reason: Dallas does not accept greasy or soiled paper in their curbside compost program. Used paper towels should be disposed of in the trash."
+Cereal box,"Phoenix, AZ",recycle,recycle,✅,"classification: recycle
+reason: Phoenix, AZ accepts cardboard cereal boxes in their curbside recycling program."
+Compostable plate,"Miami, FL",compost,trash,❌,"classification: trash
+reason: Miami does not currently have a curbside compost program that accepts compostable items like plates. Therefore, compostable plates should be disposed of in the trash in Miami, FL."
+Compostable plate,"Salt Lake City, UT",compost,trash,❌,"classification: trash
+reason: Salt Lake City does not accept compostable items in their curbside compost program. Compostable plates should be disposed of in the trash."
+Plastic utensils,"Philadelphia, PA",trash,trash,✅,"classification: trash
+reason: Philadelphia does not accept plastic utensils in their curbside recycling program. They should be disposed of in the trash."
+Apple core,"Philadelphia, PA",compost,compost,✅,"classification: compost
+reason: Philadelphia's curbside compost program accepts food waste, including fruit and vegetable scraps like apple cores."
+Plastic bottle with cap,"Madison, WI",recycle,recycle,✅,"classification: recycle
+reason: Plastic bottles with caps are accepted for recycling in Madison, WI's curbside recycling program. Make sure to empty and rinse the bottle before recycling."
+Broken mirror,"New York, NY",trash,trash,✅,"classification: trash
+reason: Broken mirrors are not accepted in the curbside recycling program in New York City. They should be disposed of in the regular trash."
+Compostable coffee cup,"Charlotte, NC",compost,trash,❌,"classification: trash
+reason: Charlotte, NC does not accept compostable items in their curbside compost program. Compostable coffee cups should be disposed of in the trash."
+Cereal box,"Philadelphia, PA",recycle,recycle,✅,"classification: recycle
+reason: Philadelphia accepts cardboard cereal boxes in their curbside recycling program."
+Clean glass jar,"Miami, FL",recycle,recycle,✅,"classification: recycle
+reason: Miami accepts clean glass jars for recycling in the curbside program."
+Styrofoam cup,"Los Angeles, CA",trash,trash,✅,"classification: trash
+reason: Styrofoam is not accepted in the curbside recycling program in Los Angeles. It should be disposed of in the trash."
+Apple core,"Charlotte, NC",compost,compost,✅,"classification: compost
+reason: Charlotte, NC accepts food waste in their curbside compost program. Apple cores can be composted."
+Used napkin with food stains,"Philadelphia, PA",trash,trash,✅,"classification: trash
+reason: Philadelphia does not accept greasy or soiled paper in their curbside compost program. Used napkins with food stains should be disposed of in the trash."
+Compostable plate,"Atlanta, GA",compost,trash,❌,"classification: trash
+reason: Atlanta's curbside compost program does not accept compostable plates. They should be disposed of in the trash."
+Banana peel,"Salt Lake City, UT",compost,compost,✅,"classification: compost
+reason: Salt Lake City has a curbside compost program that accepts food waste, including banana peels."
+Styrofoam cup,"Dallas, TX",trash,trash,✅,"classification: trash
+reason: Styrofoam is not accepted in Dallas's curbside recycling program. It should be disposed of in the trash."
+Aluminum can (rinsed),"Austin, TX",recycle,recycle,✅,"classification: recycle
+reason: Austin, TX accepts clean aluminum cans for recycling in their curbside program."
+Foam egg carton,"Seattle, WA",trash,trash,✅,"classification: trash
+reason: Seattle does not accept foam egg cartons in their curbside recycling program. They should be disposed of in the trash."
+Compostable coffee cup,"Dallas, TX",compost,trash,❌,"classification: trash
+reason: Dallas does not currently have a curbside compost program that accepts compostable items like coffee cups. Therefore, compostable coffee cups should be disposed of in the trash in Dallas, TX."
+Magazine,"Houston, TX",recycle,recycle,✅,"classification: recycle
+reason: Houston, TX accepts magazines in the curbside recycling program."
+Plastic bottle with cap,"San Francisco, CA",recycle,recycle,✅,"classification: recycle
+reason: San Francisco accepts plastic bottles with caps for curbside recycling."
+Plastic utensils,"Miami, FL",trash,trash,✅,"classification: trash
+reason: Miami does not accept plastic utensils in their curbside recycling program. They should be disposed of in the trash."
+Crinkly chip bag,"Dallas, TX",trash,trash,✅,"classification: trash
+reason: Dallas does not accept chip bags in curbside recycling as they are typically made of mixed materials that are difficult to separate and recycle. It should be disposed of in the trash."
+Compostable plate,"Los Angeles, CA",compost,trash,❌,"classification: trash
+reason: Los Angeles does not accept compostable items in their curbside compost program. Compostable plates should be disposed of in the trash."
+Apple core,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: San Francisco has a curbside composting program that accepts food waste, including apple cores."
+Compostable coffee cup,"Dallas, TX",compost,trash,❌,"classification: trash
+reason: Dallas does not currently have a curbside compost program that accepts compostable items like coffee cups. Therefore, compostable coffee cups should be disposed of in the trash in Dallas, TX."
+Compostable coffee cup,"Denver, CO",compost,trash,❌,"classification: trash
+reason: Denver's curbside compost program does not accept compostable items like coffee cups. They should be disposed of in the trash."
+Broken mirror,"Boston, MA",trash,trash,✅,"classification: trash
+reason: Broken mirrors are not accepted in Boston's curbside recycling program as they pose a safety hazard to waste management workers. They should be disposed of in the trash."
+Compostable plate,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: San Francisco accepts certified compostable items like plates in their curbside compost program."
+Styrofoam cup,"Salt Lake City, UT",trash,trash,✅,"classification: trash
+reason: Styrofoam cups are not accepted in Salt Lake City's curbside recycling program. They should be disposed of in the trash."
+Plastic utensils,"Seattle, WA",trash,trash,✅,"classification: trash
+reason: Seattle does not accept plastic utensils in their curbside recycling program. They should be disposed of in the trash."
+Batteries,"Minneapolis, MN",trash,trash,✅,"classification: trash
+reason: Batteries are considered hazardous waste and should not be disposed of in curbside recycling or compost bins in Minneapolis. Residents are encouraged to drop off batteries at designated recycling centers for proper disposal."
+Tea bag,"Los Angeles, CA",compost,trash,❌,"classification: trash
+reason: Los Angeles does not accept tea bags in curbside compost programs. Tea bags are considered trash in this city."
+Plastic utensils,"Boston, MA",trash,trash,✅,"classification: trash
+reason: Boston does not accept plastic utensils in their curbside recycling program. They should be disposed of in the trash."
+Glass wine bottle,"Boston, MA",recycle,recycle,✅,"classification: recycle
+reason: Boston accepts glass bottles for recycling in their curbside program."
+Cereal box,"Phoenix, AZ",recycle,recycle,✅,"classification: recycle
+reason: In Phoenix, AZ, cereal boxes are accepted in curbside recycling programs as they are made of cardboard which is recyclable."
+Glass wine bottle,"Denver, CO",recycle,recycle,✅,"classification: recycle
+reason: Denver accepts glass bottles for recycling in their curbside program."
+Foam egg carton,"Phoenix, AZ",trash,trash,✅,"classification: trash
+reason: Phoenix does not accept foam egg cartons in their curbside recycling program. Foam products are generally not recyclable in Phoenix."
+Cardboard box,"Boston, MA",recycle,recycle,✅,"classification: recycle
+reason: In Boston, cardboard boxes are accepted for curbside recycling."
+Apple core,"Chicago, IL",compost,compost,✅,"classification: compost
+reason: Chicago's curbside compost program accepts food waste, including fruit and vegetable scraps like apple cores."
+Tea bag,"Austin, TX",compost,trash,❌,"classification: trash
+reason: Austin's curbside compost program does not accept tea bags, as they may contain plastic or other non-compostable materials. It is best to dispose of tea bags in the trash."
+Clean glass jar,"Boston, MA",recycle,recycle,✅,"classification: recycle
+reason: Boston accepts clean glass jars for recycling in the curbside program."
+Banana peel,"Houston, TX",compost,compost,✅,"classification: compost
+reason: Houston does not have a curbside composting program, but organic waste like banana peels can be composted at home or dropped off at certain composting facilities in the city."
+Corn husks,"Salt Lake City, UT",compost,compost,✅,"classification: compost
+reason: Salt Lake City's curbside compost program accepts food waste, including corn husks."
+Plastic grocery bag,"Miami, FL",trash,trash,✅,"classification: trash
+reason: Plastic bags are not accepted in Miami's curbside recycling program as they can cause issues at recycling facilities and contaminate other recyclables. It is recommended to return plastic bags to grocery stores for proper recycling."
+Foam egg carton,"Dallas, TX",trash,trash,✅,"classification: trash
+reason: Dallas does not accept foam egg cartons in their curbside recycling program. Foam products are not recyclable in Dallas and should be placed in the trash."
+Compostable plate,"Austin, TX",compost,trash,❌,"classification: trash
+reason: Austin's curbside compost program does not accept compostable plates. They should be disposed of in the trash."
+Used napkin with food stains,"Dallas, TX",trash,trash,✅,"classification: trash
+reason: Dallas does not accept greasy or soiled paper in their curbside compost program. Used napkins with food stains should be disposed of in the trash."
+Styrofoam cup,"Austin, TX",trash,trash,✅,"classification: trash
+reason: Styrofoam is not accepted in Austin's curbside recycling program. It should be disposed of in the trash."
+Banana peel,"Portland, OR",compost,compost,✅,"classification: compost
+reason: Portland accepts food waste in their curbside compost program. Banana peels can be composted."
