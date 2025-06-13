@@ -1,3 +1,5 @@
+# ai_agent.py
+
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
@@ -9,51 +11,54 @@ llm = ChatOpenAI(
     temperature=0
 )
 
-# Track user interaction history with memory
+# Conversation memory to support ongoing context (optional)
 memory = ConversationBufferMemory(
     memory_key="history",
     return_messages=True,
     input_key="item"
 )
 
-# Refined prompt for classification
+# Refined prompt template
 prompt = PromptTemplate(
     input_variables=["item", "location"],
     template="""
 You are a Recycling Classification Assistant.
 
-Classify household waste according to the **curbside** rules in the provided U.S. city. Use the latest known local disposal policies.
+Your task is to classify household waste items using the **curbside collection rules** for the specified U.S. city. Make decisions based on known local policies.
 
-Use ONLY these labels:
+Use ONLY one of these labels:
 - recycle
 - compost
 - trash
-Be aware of city-specific exceptions. Some items like tea bags, shredded paper, and wooden utensils may seem compostable, but are not accepted in all municipal curbside compost programs.
 
-Respond in this format:
-classification: <recycle / compost / trash>
-reason: <concise explanation with specific local rule>
+Follow these instructions:
+- Be aware of city-specific exceptions. For example, some cities allow compostable utensils or soiled paper, while others do not.
+- Plastic bags, plastic utensils, packaging film, chip bags: usually **trash**.
+- Shredded paper: often **trash** unless city explicitly allows composting.
+- Greasy paper: only **compost** if the city program permits it.
+- Compostable plates/cups/utensils: only **compost** in cities like San Francisco, Berkeley, and Portland.
+- Clean glass, aluminum, tin: usually **recyclable**.
+- Hazardous items (batteries, expired meds): **trash** unless city accepts special handling — never recycle.
 
-Always follow these key guidelines:
-- **Compostables**: In cities like Berkeley, San Francisco, and Portland, curbside composting often accepts food waste and certified compostable items like utensils, plates, or cups.
-- **Plastic bags, film, utensils**: Usually trash, even if marked recyclable.
-- **Greasy or soiled paper**: Trash unless a city accepts them in compost.
-- **Clean aluminum foil or metal**: Often recyclable unless city explicitly excludes.
-- **Uncertain?** Do NOT say "check local guidelines" — make the best decision based on known rules for that city.
+NEVER suggest “check local guidelines.” Always choose the best classification based on known policies.
 
-Item: {item}
+Respond in **exactly** this format:
+classification: <recycle / compost / trash>  
+reason: <brief city-specific explanation>
+
+Item: {item}  
 Location: {location}
 """
 )
 
-# LLM Chain
+# LLM Chain setup
 chain = LLMChain(
     llm=llm,
     prompt=prompt,
     memory=memory
 )
 
-# Function to classify the item
+# Classification function
 def classify_item(item, location):
     response = chain.run(item=item, location=location)
     lines = response.lower().splitlines()
@@ -65,4 +70,5 @@ def classify_item(item, location):
         "classification": predicted
     }
 
+# For import
 __all__ = ["classify_item", "memory"]
