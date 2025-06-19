@@ -10,12 +10,15 @@
         <h1>♻️ Recycling Sort Assistant</h1>
         <form method="POST" enctype="multipart/form-data">
             <label for="item">Item Description:</label>
-            <input type="text" name="item" placeholder="e.g., greasy pizza box" required>
+            <input type="text" name="item" placeholder="e.g., greasy pizza box">
+            <small>You can either type a description or upload a photo of the item. One is required.</small>
 
             <label for="location">Location:</label>
             <input type="text" name="location" placeholder="e.g., Chicago, IL" required>
 
-            <label for="image">Optional: Upload Image (coming soon)</label>
+            <label><input type="checkbox" name="home_composting"> I have home composting</label>
+
+            <label for="image">Optional: Upload Image (e.g., banana peel, chip bag)</label>
             <input type="file" name="image">
 
             <button type="submit">Classify</button>
@@ -44,7 +47,6 @@
             {% endfor %}
         </div>
         {% endif %}
-
 
         <footer>
             <p>Part of Summer Research: Recycling AI Agent | University of Michigan-Flint</p>

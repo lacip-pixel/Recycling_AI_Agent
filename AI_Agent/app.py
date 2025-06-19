@@ -1,5 +1,7 @@
+# app.py
 from flask import Flask, render_template, request
-from ai_agent import classify_item, memory
+from ai_agent import classify_item
+from caption import caption_image  # For BLIP image captioning
 import os
 
 app = Flask(__name__)
@@ -16,21 +18,24 @@ def index():
     if request.method == 'POST':
         item = request.form.get('item')
         location = request.form.get('location')
+        home_composting = "yes" if request.form.get("home_composting") else "no"
         image = request.files.get('image')
 
-        # Placeholder for image classification
-        if image and image.filename:
+        if not location:
+            message = "❗ Please provide your location."
+        elif image and image.filename:
             image_path = os.path.join(app.config['UPLOAD_FOLDER'], image.filename)
             image.save(image_path)
-            message = "🖼️ Image classification coming soon!"
 
-        elif item and location:
-            result = classify_item(item, location)
+            caption = caption_image(image_path)
+            result = classify_item(caption, location, home_composting)
+            message = f"🖼️ Image identified as: '{caption}'"
 
-    # Show past conversation memory (human and AI messages)
-    for msg in memory.chat_memory.messages:
-        if hasattr(msg, "type") and msg.type in ["human", "ai"]:
-            past_history.append((msg.type.capitalize(), msg.content))
+        elif item:
+            result = classify_item(item, location, home_composting)
+
+        else:
+            message = "❗ Please provide either a description or an image."
 
     return render_template("index.html", result=result, message=message, past_history=past_history)
 

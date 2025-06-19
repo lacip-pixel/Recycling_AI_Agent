@@ -1,0 +1,31 @@
+Item Description,Location,Expected Classification
+Banana peel,"Seattle, WA",compost
+Coffee grounds,"Portland, OR",compost
+Greasy napkin,"Chicago, IL",compost
+Avocado skin,"New York, NY",compost
+Food-soiled paper,"San Francisco, CA",compost
+Moldy bread,"Boston, MA",compost
+Orange peel,"Denver, CO",compost
+Pizza crust,"Minneapolis, MN",compost
+Used paper towel,"Austin, TX",compost
+Stained paper plate,"Philadelphia, PA",compost
+Aluminum can,"Charlotte, NC",recycle
+Plastic bottle #1,"Washington, DC",recycle
+Tin can,"Los Angeles, CA",recycle
+Cardboard box,"San Francisco, CA",recycle
+Paper towel roll,"Portland, OR",recycle
+Cereal box,"Chicago, IL",recycle
+Soda can,"New York, NY",recycle
+Milk jug,"Boston, MA",recycle
+Paper cup (clean),"Seattle, WA",recycle
+Glass bottle,"Philadelphia, PA",recycle
+Chip bag,"Phoenix, AZ",trash
+Plastic grocery bag,"Miami, FL",trash
+Styrofoam container,"Houston, TX",trash
+Plastic utensil,"Las Vegas, NV",trash
+Diaper,"San Diego, CA",trash
+Used tissue,"Austin, TX",trash
+Broken ceramic plate,"New York, NY",trash
+K-cup,"Chicago, IL",trash
+Plastic straw,"Boston, MA",trash
+Takeout container (plastic),"Philadelphia, PA",trash

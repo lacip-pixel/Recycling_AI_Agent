@@ -1,0 +1,16 @@
+Item Description,Location,Expected Classification
+Avocado pit,"Chicago, IL",compost
+Plastic salad container,"Phoenix, AZ",trash
+Used tissue,"Los Angeles, CA",trash
+Pizza crust,"Portland, OR",compost
+Aluminum foil (clean),"Denver, CO",recycle
+Milk carton,"Houston, TX",trash
+Greasy sandwich wrapper,"San Francisco, CA",compost
+Tin can,"New York, NY",recycle
+Plastic grocery bag,"Philadelphia, PA",trash
+Coffee grounds,"Boston, MA",compost
+Cereal box,"Charlotte, NC",recycle
+Broken plate,"Austin, TX",trash
+Paper cup (clean),"Seattle, WA",recycle
+Tea bag,"Berkeley, CA",compost
+Takeout container (plastic),"Miami, FL",trash

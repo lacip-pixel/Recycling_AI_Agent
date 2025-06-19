@@ -1,0 +1,131 @@
+Item Description,Location,Expected Classification
+Milk jug (rinsed),"Chicago, IL",recycle
+Milk jug (rinsed),"New York, NY",recycle
+Compostable plate,"Chicago, IL",compost
+Plastic utensils,"Seattle, WA",trash
+Aluminum can,"Austin, TX",recycle
+Aluminum can,"Minneapolis, MN",recycle
+Used paper towel,"Minneapolis, MN",compost
+Styrofoam cup,"New York, NY",trash
+Compostable plate,"Austin, TX",compost
+Milk jug (rinsed),"San Francisco, CA",recycle
+Cereal box,"New York, NY",recycle
+Plastic bottle with cap,"Chicago, IL",recycle
+Tin can,"Minneapolis, MN",recycle
+Styrofoam cup,"Seattle, WA",trash
+Glass bottle,"Austin, TX",recycle
+Cereal box,"Boston, MA",recycle
+Crinkly chip bag,"Boston, MA",trash
+Tin can,"Chicago, IL",recycle
+Compostable coffee cup,"San Francisco, CA",compost
+Used napkin with food stains,"San Francisco, CA",compost
+Corn husks,"Austin, TX",compost
+Cereal box,"Chicago, IL",recycle
+Aluminum can,"New York, NY",recycle
+Aluminum can,"San Francisco, CA",recycle
+Milk jug (rinsed),"Minneapolis, MN",recycle
+Foam egg carton,"New York, NY",trash
+Apple core,"New York, NY",compost
+Glass bottle,"Portland, OR",recycle
+Plastic bottle with cap,"Minneapolis, MN",recycle
+Apple core,"Chicago, IL",compost
+Greasy pizza box,"San Francisco, CA",compost
+Glass bottle,"Portland, OR",recycle
+Crinkly chip bag,"New York, NY",trash
+Plastic utensils,"Austin, TX",trash
+Milk jug (rinsed),"Seattle, WA",recycle
+Foam egg carton,"Chicago, IL",trash
+Magazine,"New York, NY",recycle
+Wooden chopsticks,"Minneapolis, MN",compost
+Compostable plate,"Boston, MA",compost
+Plastic utensils,"New York, NY",trash
+Tea bag,"Austin, TX",compost
+Used napkin with food stains,"Boston, MA",compost
+Milk jug (rinsed),"New York, NY",recycle
+Compostable plate,"San Francisco, CA",compost
+Broken mirror,"New York, NY",trash
+Tea bag,"San Francisco, CA",compost
+Plastic utensils,"San Francisco, CA",trash
+Plastic utensils,"Chicago, IL",trash
+Crinkly chip bag,"Seattle, WA",trash
+Crinkly chip bag,"San Francisco, CA",trash
+Plastic grocery bag,"Seattle, WA",trash
+Cereal box,"Chicago, IL",recycle
+Crinkly chip bag,"Portland, OR",trash
+Plastic bottle with cap,"Minneapolis, MN",recycle
+Plastic grocery bag,"Seattle, WA",trash
+Plastic utensils,"Chicago, IL",trash
+Expired medicine,"San Francisco, CA",trash
+Expired medicine,"Boston, MA",trash
+Compostable plate,"Seattle, WA",compost
+Banana peel,"Minneapolis, MN",compost
+Greasy pizza box,"Boston, MA",compost
+Magazine,"New York, NY",recycle
+Apple core,"Austin, TX",compost
+Plastic utensils,"Seattle, WA",trash
+Milk jug (rinsed),"Boston, MA",recycle
+Glass bottle,"Philadelphia, PA",recycle
+Expired medicine,"Atlanta, GA",trash
+Paper towel roll,"Charlotte, NC",recycle
+Compostable plate,"Cleveland, OH",trash
+Used paper towel,"Atlanta, GA",trash
+Plastic grocery bag,"Philadelphia, PA",trash
+Compostable plate,"Charlotte, NC",trash
+Expired medicine,"Dallas, TX",trash
+Paper towel roll,"Charlotte, NC",recycle
+Used napkin with food stains,"Philadelphia, PA",trash
+Broken mirror,"Phoenix, AZ",trash
+Compostable plate,"Charlotte, NC",trash
+Compostable plate,"Houston, TX",trash
+Wooden chopsticks,"Charlotte, NC",trash
+Expired medicine,"Dallas, TX",trash
+Corn husks,"Cleveland, OH",trash
+Compostable plate,"Philadelphia, PA",trash
+Compostable plate,"Atlanta, GA",trash
+Expired medicine,"Dallas, TX",trash
+Glass bottle,"Atlanta, GA",recycle
+Plastic grocery bag,"Dallas, TX",trash
+Plastic bottle with cap,"Atlanta, GA",recycle
+Broken mirror,"Cleveland, OH",trash
+Plastic grocery bag,"Dallas, TX",trash
+Paper towel roll,"Houston, TX",recycle
+Greasy pizza box,"Atlanta, GA",trash
+Banana peel,"Dallas, TX",trash
+Styrofoam cup,"Miami, FL",trash
+Tea bag,"Miami, FL",trash
+Wooden chopsticks,"Charlotte, NC",trash
+Used napkin with food stains,"Atlanta, GA",trash
+Banana peel,"Cleveland, OH",trash
+Expired medicine,"Philadelphia, PA",trash
+Banana peel,"Dallas, TX",trash
+Tin can,"Philadelphia, PA",recycle
+Broken mirror,"Cleveland, OH",trash
+Apple core,"Atlanta, GA",trash
+Glass bottle,"Philadelphia, PA",recycle
+Broken mirror,"Houston, TX",trash
+Expired medicine,"Charlotte, NC",trash
+Broken mirror,"Cleveland, OH",trash
+Tea bag,"Miami, FL",trash
+Aluminum can,"Phoenix, AZ",recycle
+Magazine,"Houston, TX",recycle
+Banana peel,"Charlotte, NC",trash
+Plastic grocery bag,"Atlanta, GA",trash
+Compostable coffee cup,"Cleveland, OH",trash
+Plastic bottle with cap,"Cleveland, OH",recycle
+Crinkly chip bag,"Atlanta, GA",trash
+Compostable plate,"Atlanta, GA",trash
+Aluminum can,"Philadelphia, PA",recycle
+Aluminum can,"Cleveland, OH",recycle
+Cereal box,"Philadelphia, PA",recycle
+Magazine,"Houston, TX",recycle
+Glass bottle,"Atlanta, GA",recycle
+Cereal box,"Miami, FL",recycle
+Corn husks,"Dallas, TX",trash
+Used napkin with food stains,"Dallas, TX",trash
+Used paper towel,"Phoenix, AZ",trash
+Expired medicine,"Dallas, TX",trash
+Paper towel roll,"Phoenix, AZ",recycle
+Styrofoam cup,"Dallas, TX",trash
+Used napkin with food stains,"Charlotte, NC",trash
+Compostable plate,"Charlotte, NC",trash
+Tea bag,"Charlotte, NC",trash

@@ -1,0 +1,61 @@
+Item Description,Location,Expected Classification,Predicted,Match,LLM Reason
+Banana peel,"Seattle, WA",compost,compost,✅,"classification: compost
+reason: The item is a food scrap (banana peel) and curbside composting is available in Seattle, WA."
+Coffee grounds,"Portland, OR",compost,compost,✅,"classification: compost
+reason: Coffee grounds are food waste and can be composted. Since curbside composting is available in Portland, they should be composted through that system."
+Greasy napkin,"Chicago, IL",compost,compost,✅,"classification: compost
+reason: The greasy napkin is food-soiled paper, which can be composted. Since curbside composting is available in Chicago, it should be composted."
+Avocado skin,"New York, NY",compost,compost,✅,"classification: compost
+reason: The avocado skin is food waste and can be composted since curbside composting is available in New York, NY."
+Food-soiled paper,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: The item is food-soiled paper, which is accepted for composting in San Francisco. Curbside composting is available, so it should be composted."
+Moldy bread,"Boston, MA",compost,compost,✅,"classification: compost
+reason: Moldy bread is considered food waste and can be composted. Since curbside composting is available in Boston, it should be composted."
+Orange peel,"Denver, CO",compost,compost,✅,"classification: compost
+reason: The orange peel is a food waste item and can be composted since curbside composting is available in Denver, CO."
+Pizza crust,"Minneapolis, MN",compost,compost,✅,"classification: compost
+reason: The pizza crust is food waste and can be composted since curbside composting is available in Minneapolis."
+Used paper towel,"Austin, TX",compost,compost,✅,"classification: compost
+reason: The used paper towel is food-soiled paper and can be composted since curbside composting is available in Austin, TX."
+Stained paper plate,"Philadelphia, PA",compost,compost,✅,"classification: compost
+reason: The stained paper plate is food-soiled paper and can be composted since curbside composting is available in Philadelphia."
+Aluminum can,"Charlotte, NC",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs."
+Plastic bottle #1,"Washington, DC",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs."
+Tin can,"Los Angeles, CA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs."
+Cardboard box,"San Francisco, CA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs."
+Paper towel roll,"Portland, OR",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs."
+Cereal box,"Chicago, IL",recycle,recycle,✅,"classification: recycle
+reason: The cereal box is accepted by curbside recycling in most U.S. cities, including Chicago, IL."
+Soda can,"New York, NY",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs."
+Milk jug,"Boston, MA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs."
+Paper cup (clean),"Seattle, WA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs."
+Glass bottle,"Philadelphia, PA",recycle,recycle,✅,"classification: recycle
+reason: Glass bottles are accepted by curbside recycling in most U.S. cities, including Philadelphia, PA."
+Chip bag,"Phoenix, AZ",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside."
+Plastic grocery bag,"Miami, FL",trash,trash,✅,"classification: trash  
+reason: Plastic grocery bags are not accepted in local curbside recycling or composting programs. They are typically not recyclable in curbside recycling and can cause issues in composting systems."
+Styrofoam container,"Houston, TX",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside."
+Plastic utensil,"Las Vegas, NV",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside."
+Diaper,"San Diego, CA",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside."
+Used tissue,"Austin, TX",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside."
+Broken ceramic plate,"New York, NY",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside."
+K-cup,"Chicago, IL",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside."
+Plastic straw,"Boston, MA",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside."
+Takeout container (plastic),"Philadelphia, PA",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside."
