@@ -1,0 +1,131 @@
+Item Description,Image Path,Location,Expected Classification
+soup container,images/soup_container.jpg,"Miami, FL",trash
+candy wrapper,,"Denver, CO",trash
+tea leaves,,"Phoenix, AZ",compost
+soup container,,"Atlanta, GA",trash
+aluminum can,images/aluminum_can.jpg,"Miami, FL",recycle
+ceramic plate,images/ceramic_plate.jpg,"Atlanta, GA",trash
+plastic straw,images/plastic_straw.jpg,"Atlanta, GA",trash
+k-cup,,"San Francisco, CA",trash
+milk jug,images/milk_jug.jpg,"Phoenix, AZ",recycle
+milk jug,,"New York, NY",recycle
+,images/plastic_straw.jpg,"Seattle, WA",trash
+used paper towel,images/used_paper_towel.jpg,"Denver, CO",compost
+plastic straw,,"Miami, FL",trash
+greasy pizza box,,"Phoenix, AZ",compost
+,images/k-cup.jpg,"Miami, FL",trash
+glass bottle,,"Atlanta, GA",recycle
+lettuce,,"Chicago, IL",compost
+paper towel roll,images/paper_towel_roll.jpg,"Austin, TX",recycle
+k-cup,,"San Francisco, CA",trash
+used paper towel,,"Miami, FL",compost
+aluminum can,images/aluminum_can.jpg,"Denver, CO",recycle
+,images/ceramic_plate.jpg,"Miami, FL",trash
+,images/clean_cardboard.jpg,"Seattle, WA",recycle
+paper towel roll,images/paper_towel_roll.jpg,"Boston, MA",recycle
+used paper towel,,"Seattle, WA",compost
+,images/used_paper_towel.jpg,"New York, NY",compost
+orange peel,images/orange_peel.jpg,"Chicago, IL",compost
+tea leaves,images/tea_leaves.jpg,"Denver, CO",compost
+,images/paper_towel_roll.jpg,"San Francisco, CA",recycle
+banana peel,,"Boston, MA",compost
+moldy bread,,"Atlanta, GA",compost
+foam cup,,"Austin, TX",trash
+aluminum can,images/aluminum_can.jpg,"Austin, TX",recycle
+foam cup,,"Phoenix, AZ",trash
+moldy bread,,"Phoenix, AZ",compost
+ceramic plate,,"New York, NY",trash
+lettuce,images/lettuce.jpg,"Phoenix, AZ",compost
+,images/chip_bag.jpg,"Atlanta, GA",trash
+chip bag,,"Seattle, WA",trash
+greasy pizza box,,"Seattle, WA",compost
+,images/k-cup.jpg,"Denver, CO",trash
+milk jug,images/milk_jug.jpg,"San Francisco, CA",recycle
+banana peel,,"San Francisco, CA",compost
+aluminum can,images/aluminum_can.jpg,"Phoenix, AZ",recycle
+tin can,images/tin_can.jpg,"Phoenix, AZ",recycle
+ceramic plate,,"Miami, FL",trash
+ceramic plate,,"Denver, CO",trash
+,images/chip_bag.jpg,"Phoenix, AZ",trash
+greasy pizza box,,"Austin, TX",compost
+soup container,images/soup_container.jpg,"Boston, MA",trash
+,images/plastic_straw.jpg,"New York, NY",trash
+clean cardboard,,"Chicago, IL",recycle
+,images/greasy_pizza_box.jpg,"Denver, CO",compost
+,images/plastic_straw.jpg,"Chicago, IL",trash
+moldy bread,images/moldy_bread.jpg,"New York, NY",compost
+clean cardboard,images/clean_cardboard.jpg,"Seattle, WA",recycle
+,images/tea_leaves.jpg,"New York, NY",compost
+moldy bread,images/moldy_bread.jpg,"San Francisco, CA",compost
+paper towel roll,,"Miami, FL",recycle
+greasy pizza box,images/greasy_pizza_box.jpg,"Miami, FL",compost
+tea leaves,,"Denver, CO",compost
+tea leaves,images/tea_leaves.jpg,"Atlanta, GA",compost
+ceramic plate,,"San Francisco, CA",trash
+milk jug,,"Boston, MA",recycle
+orange peel,,"Miami, FL",compost
+clean cardboard,,"Atlanta, GA",recycle
+,images/lettuce.jpg,"San Francisco, CA",compost
+,images/orange_peel.jpg,"Atlanta, GA",compost
+paper towel roll,images/paper_towel_roll.jpg,"Boston, MA",recycle
+tea leaves,,"Phoenix, AZ",compost
+foam cup,images/foam_cup.jpg,"San Francisco, CA",trash
+glass bottle,,"Miami, FL",recycle
+paper towel roll,,"Miami, FL",recycle
+tea leaves,images/tea_leaves.jpg,"Seattle, WA",compost
+used paper towel,,"Miami, FL",compost
+aluminum can,,"Miami, FL",recycle
+greasy pizza box,,"San Francisco, CA",compost
+foam cup,images/foam_cup.jpg,"San Francisco, CA",trash
+chip bag,,"Austin, TX",trash
+,images/tea_leaves.jpg,"Chicago, IL",compost
+tin can,,"Atlanta, GA",recycle
+candy wrapper,,"Denver, CO",trash
+,images/ceramic_plate.jpg,"Denver, CO",trash
+aluminum can,images/aluminum_can.jpg,"Atlanta, GA",recycle
+,images/orange_peel.jpg,"Miami, FL",compost
+clean cardboard,,"Miami, FL",recycle
+chip bag,,"Denver, CO",trash
+,images/clean_cardboard.jpg,"Seattle, WA",recycle
+k-cup,,"Boston, MA",trash
+milk jug,,"Chicago, IL",recycle
+,images/aluminum_can.jpg,"Boston, MA",recycle
+soup container,,"Boston, MA",trash
+tea leaves,images/tea_leaves.jpg,"Miami, FL",compost
+chip bag,,"Boston, MA",trash
+candy wrapper,images/candy_wrapper.jpg,"Austin, TX",trash
+,images/candy_wrapper.jpg,"Phoenix, AZ",trash
+,images/candy_wrapper.jpg,"San Francisco, CA",trash
+,images/moldy_bread.jpg,"San Francisco, CA",compost
+,images/orange_peel.jpg,"Denver, CO",compost
+,images/candy_wrapper.jpg,"Austin, TX",trash
+,images/aluminum_can.jpg,"San Francisco, CA",recycle
+,images/banana_peel.jpg,"Chicago, IL",compost
+milk jug,,"Denver, CO",recycle
+,images/clean_cardboard.jpg,"Miami, FL",recycle
+tin can,,"Phoenix, AZ",recycle
+,images/tin_can.jpg,"Seattle, WA",recycle
+lettuce,,"Miami, FL",compost
+,images/orange_peel.jpg,"Miami, FL",compost
+chip bag,,"Boston, MA",trash
+paper towel roll,,"Austin, TX",recycle
+,images/tin_can.jpg,"Seattle, WA",recycle
+tea leaves,images/tea_leaves.jpg,"Phoenix, AZ",compost
+tin can,,"Miami, FL",recycle
+paper towel roll,,"Atlanta, GA",recycle
+banana peel,,"Denver, CO",compost
+,images/tea_leaves.jpg,"San Francisco, CA",compost
+moldy bread,,"Chicago, IL",compost
+paper towel roll,,"New York, NY",recycle
+banana peel,,"Denver, CO",compost
+ceramic plate,images/ceramic_plate.jpg,"Boston, MA",trash
+soup container,images/soup_container.jpg,"Denver, CO",trash
+glass bottle,,"Atlanta, GA",recycle
+milk jug,,"Boston, MA",recycle
+clean cardboard,images/clean_cardboard.jpg,"Boston, MA",recycle
+,images/tea_leaves.jpg,"Atlanta, GA",compost
+ceramic plate,images/ceramic_plate.jpg,"San Francisco, CA",trash
+tea leaves,images/tea_leaves.jpg,"Phoenix, AZ",compost
+,images/foam_cup.jpg,"Seattle, WA",trash
+tin can,,"Denver, CO",recycle
+tea leaves,,"Atlanta, GA",compost

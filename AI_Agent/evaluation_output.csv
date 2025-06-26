@@ -1,0 +1,261 @@
+Item Description,Image Path,Generated Caption,Location,Expected Classification,Predicted,Match,LLM Reason,Input Source
+soup container,images/soup_container.jpg,a clear plastic cup with a lid,"Miami, FL",trash,trash,✅,"classification: trash  
+reason: The item is a plastic-lined item that is not accepted in local curbside recycling or composting.",[🖼️ from soup_container.jpg]
+candy wrapper,nan,,"Denver, CO",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+tea leaves,nan,,"Phoenix, AZ",compost,trash,❌,"classification: trash  
+reason: Tea leaves are not accepted in local curbside recycling or composting programs. They are not explicitly allowed for composting and are not a recyclable material. Therefore, they should be disposed of in the trash.",[text]
+soup container,nan,,"Atlanta, GA",trash,compost,❌,"classification: compost
+reason: The soup container is likely food-soiled paper and can be composted since curbside composting is available in Atlanta, GA.",[text]
+aluminum can,images/aluminum_can.jpg,coca can on white background,"Miami, FL",recycle,trash,❌,"classification: trash
+reason: The item is a aluminum can, which is typically accepted by curbside recycling in most U.S. cities. However, since curbside composting is not available and the user does not have home composting access, the correct disposal method for this item in Miami, FL would be to recycle it.",[🖼️ from aluminum_can.jpg]
+ceramic plate,images/ceramic_plate.jpg,a white plate with a white rim,"Atlanta, GA",trash,trash,✅,"classification: trash
+reason: The white plate with a white rim is not accepted in local curbside composting or recycling programs. It is not a food waste, food-soiled paper, or certified compostable item, so it should be disposed of in the trash.",[🖼️ from ceramic_plate.jpg]
+plastic straw,images/plastic_straw.jpg,,"Atlanta, GA",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+k-cup,nan,,"San Francisco, CA",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+milk jug,images/milk_jug.jpg,a gallon of milk,"Phoenix, AZ",recycle,trash,❌,"classification: trash
+reason: The item, a gallon of milk, is not accepted in local curbside recycling or composting. It is not explicitly allowed for composting and is not accepted in curbside recycling.",[🖼️ from milk_jug.jpg]
+milk jug,nan,,"New York, NY",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+nan,images/plastic_straw.jpg,,"Seattle, WA",trash,compost,❌,"classification: compost
+reason: The item is food waste and curbside composting is available in Seattle, WA.",[text]
+used paper towel,images/used_paper_towel.jpg,a piece of paper on a wooden table,"Denver, CO",compost,recycle,❌,"classification: recycle
+reason: The item is a piece of paper, which is accepted by curbside recycling in most U.S. cities, including Denver, CO. Since curbside composting is available but home composting is not, the paper should be recycled.",[🖼️ from used_paper_towel.jpg]
+plastic straw,nan,,"Miami, FL",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+greasy pizza box,nan,,"Phoenix, AZ",compost,trash,❌,"classification: trash  
+reason: The greasy pizza box is food-soiled paper, but since curbside composting is not available and the user does not have home composting access, it should be disposed of in the trash.",[text]
+nan,images/k-cup.jpg,a cup of starbucks coffee and a container of coffee on a white background - stock image,"Miami, FL",trash,trash,✅,"classification: trash  
+reason: The item is not accepted in local curbside recycling or composting. It is a mixed-material item (a cup and a container) that is not explicitly allowed for composting or recycling.",[🖼️ from k-cup.jpg]
+glass bottle,nan,,"Atlanta, GA",recycle,recycle,✅,"classification: recycle
+reason: The item (glass bottle) is accepted by curbside recycling in most U.S. cities, including Atlanta, GA.",[text]
+lettuce,nan,,"Chicago, IL",compost,compost,✅,"classification: compost
+reason: Lettuce is a food waste item and can be composted. Since curbside composting is available in Chicago, it should be composted.",[text]
+paper towel roll,images/paper_towel_roll.jpg,a roll of brown paper on a white background,"Austin, TX",recycle,trash,❌,"classification: trash
+reason: The item is not food waste, food-soiled paper, or certified compostable. It is not accepted in local curbside recycling or composting.",[🖼️ from paper_towel_roll.jpg]
+k-cup,nan,,"San Francisco, CA",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+used paper towel,nan,,"Miami, FL",compost,trash,❌,"classification: trash
+reason: The used paper towel is not accepted in local curbside recycling or composting. It is considered trash as it is not explicitly allowed for recycling or composting.",[text]
+aluminum can,images/aluminum_can.jpg,coca can on white background,"Denver, CO",recycle,recycle,✅,"classification: recycle
+reason: The item (aluminum can) is accepted by curbside recycling in most U.S. cities, including Denver, CO.",[🖼️ from aluminum_can.jpg]
+nan,images/ceramic_plate.jpg,a white plate with a white rim,"Miami, FL",trash,trash,✅,"classification: trash
+reason: The white plate with a white rim is not accepted in local curbside recycling or composting. It is a mixed-material item that is not explicitly allowed for either recycling or composting. Therefore, it should be disposed of in the trash.",[🖼️ from ceramic_plate.jpg]
+nan,images/clean_cardboard.jpg,cardboard boxes,"Seattle, WA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[🖼️ from clean_cardboard.jpg]
+paper towel roll,images/paper_towel_roll.jpg,a roll of brown paper on a white background,"Boston, MA",recycle,trash,❌,"classification: trash
+reason: The item is not accepted in local curbside composting or recycling programs, and it is not a food waste, food-soiled paper, or certified compostable item.",[🖼️ from paper_towel_roll.jpg]
+used paper towel,nan,,"Seattle, WA",compost,compost,✅,"classification: compost
+reason: The used paper towel is food-soiled paper and can be composted since curbside composting is available in Seattle.",[text]
+nan,images/used_paper_towel.jpg,a piece of paper on a wooden table,"New York, NY",compost,recycle,❌,"classification: recycle
+reason: The item is a piece of paper, which is accepted by curbside recycling in most U.S. cities. Since curbside composting is available but home composting is not, the paper should be recycled.",[🖼️ from used_paper_towel.jpg]
+orange peel,images/orange_peel.jpg,an orange peel cut in half,"Chicago, IL",compost,compost,✅,"classification: compost
+reason: The orange peel cut in half is a food waste item, which can be composted. Since curbside composting is available in Chicago, it should be composted.",[🖼️ from orange_peel.jpg]
+tea leaves,images/tea_leaves.jpg,a glass bowl filled with black tea,"Denver, CO",compost,compost,✅,"classification: compost
+reason: The item is food-soiled (black tea) and can be composted since curbside composting is available in Denver, CO.",[🖼️ from tea_leaves.jpg]
+nan,images/paper_towel_roll.jpg,a roll of brown paper on a white background,"San Francisco, CA",recycle,trash,❌,"classification: trash
+reason: The item is not accepted in local curbside recycling or composting. It is a mixed-material item (brown paper with a plastic lining) and not explicitly allowed for composting or recycling.",[🖼️ from paper_towel_roll.jpg]
+banana peel,nan,,"Boston, MA",compost,compost,✅,"classification: compost
+reason: The banana peel is a food scrap and can be composted since curbside composting is available in Boston, MA.",[text]
+moldy bread,nan,,"Atlanta, GA",compost,compost,✅,"classification: compost
+reason: Moldy bread is considered food waste and can be composted. Since curbside composting is available in Atlanta, it should be composted.",[text]
+foam cup,nan,,"Austin, TX",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+aluminum can,images/aluminum_can.jpg,coca can on white background,"Austin, TX",recycle,recycle,✅,"classification: recycle
+reason: The item (aluminum can) is accepted by curbside recycling in most U.S. cities, including Austin, TX.",[🖼️ from aluminum_can.jpg]
+foam cup,nan,,"Phoenix, AZ",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+moldy bread,nan,,"Phoenix, AZ",compost,trash,❌,"classification: trash  
+reason: Moldy bread is not accepted in local curbside recycling or composting. It is not a recyclable item and should be disposed of in the trash.",[text]
+ceramic plate,nan,,"New York, NY",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+lettuce,images/lettuce.jpg,a head of cabbage on a white background,"Phoenix, AZ",compost,trash,❌,"classification: trash  
+reason: The head of cabbage is not accepted in local curbside recycling or composting. It is not a food scrap or food-soiled paper, and it is not explicitly allowed for composting or recycling.",[🖼️ from lettuce.jpg]
+nan,images/chip_bag.jpg,"rus original chips, 3 oz","Atlanta, GA",trash,compost,❌,"classification: compost
+reason: The rus original chips are food waste and can be composted since curbside composting is available in Atlanta, GA.",[🖼️ from chip_bag.jpg]
+chip bag,nan,,"Seattle, WA",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+greasy pizza box,nan,,"Seattle, WA",compost,compost,✅,"classification: compost
+reason: The greasy pizza box is food-soiled paper and can be composted since curbside composting is available in Seattle.",[text]
+nan,images/k-cup.jpg,a cup of starbucks coffee and a container of coffee on a white background - stock image,"Denver, CO",trash,compost,❌,"classification: compost
+reason: The item is food waste (coffee) and food-soiled paper (cup), and curbside composting is available in Denver, CO.",[🖼️ from k-cup.jpg]
+milk jug,images/milk_jug.jpg,a gallon of milk,"San Francisco, CA",recycle,recycle,✅,"classification: recycle
+reason: The item (a gallon of milk) is not food waste, food-soiled paper, or certified compostable. Since curbside composting is available in San Francisco, the gallon of milk can be recycled through curbside recycling.",[🖼️ from milk_jug.jpg]
+banana peel,nan,,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: The item is a food scrap (banana peel) and curbside composting is available in San Francisco.",[text]
+aluminum can,images/aluminum_can.jpg,coca can on white background,"Phoenix, AZ",recycle,trash,❌,"classification: trash  
+reason: The item is a aluminum can, which is typically accepted by curbside recycling. However, since curbside composting is not available and home composting is not an option, the correct disposal method for this item in Phoenix, AZ would be to throw it in the trash.",[🖼️ from aluminum_can.jpg]
+tin can,images/tin_can.jpg,a tin can with a metal lid,"Phoenix, AZ",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[🖼️ from tin_can.jpg]
+ceramic plate,nan,,"Miami, FL",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+ceramic plate,nan,,"Denver, CO",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+nan,images/chip_bag.jpg,"rus original chips, 3 oz","Phoenix, AZ",trash,trash,✅,"classification: trash  
+reason: The item is a plastic-lined chip bag, which is not accepted in local curbside recycling or composting.",[🖼️ from chip_bag.jpg]
+greasy pizza box,nan,,"Austin, TX",compost,compost,✅,"classification: compost
+reason: The greasy pizza box is food-soiled paper and can be composted. Since curbside composting is available in Austin, TX, it should be composted.",[text]
+soup container,images/soup_container.jpg,a clear plastic cup with a lid,"Boston, MA",trash,trash,✅,"classification: trash
+reason: The clear plastic cup with a lid is not accepted in local curbside recycling or composting. It is a mixed-material item that is not explicitly allowed for either disposal method.",[🖼️ from soup_container.jpg]
+nan,images/plastic_straw.jpg,,"New York, NY",trash,trash,✅,"classification: trash
+reason: The item ""nan"" is not a specific item that can be classified as recyclable or compostable. Since it is not explicitly allowed in curbside composting or recycling, it should be disposed of in the trash.",[text]
+clean cardboard,nan,,"Chicago, IL",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+nan,images/greasy_pizza_box.jpg,a box with a piece of paper inside,"Denver, CO",compost,recycle,❌,"classification: recycle
+reason: The item is a clean paper, which is accepted by curbside recycling in most U.S. cities.",[🖼️ from greasy_pizza_box.jpg]
+nan,images/plastic_straw.jpg,,"Chicago, IL",trash,trash,✅,"classification: trash
+reason: The item ""nan"" is not a specific or recognizable item that can be classified for recycling or composting. It is not accepted in local curbside recycling or composting and does not fall under any specific category for proper disposal.",[text]
+moldy bread,images/moldy_bread.jpg,a white plate topped with a slice of spinach bread,"New York, NY",compost,compost,✅,"classification: compost
+reason: The item is food waste (spinach bread) and food-soiled paper (plate), and curbside composting is available in New York, NY.",[🖼️ from moldy_bread.jpg]
+clean cardboard,images/clean_cardboard.jpg,cardboard boxes,"Seattle, WA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[🖼️ from clean_cardboard.jpg]
+nan,images/tea_leaves.jpg,a glass bowl filled with black tea,"New York, NY",compost,trash,❌,"classification: trash
+reason: The glass bowl filled with black tea is not accepted in curbside composting or recycling programs. It is not a food waste, food-soiled paper, or certified compostable item. Therefore, it should be disposed of in the trash.",[🖼️ from tea_leaves.jpg]
+moldy bread,images/moldy_bread.jpg,a white plate topped with a slice of spinach bread,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: The item is food waste (spinach bread) and food-soiled paper (plate). Curbside composting is available in San Francisco, so the item can be composted.",[🖼️ from moldy_bread.jpg]
+paper towel roll,nan,,"Miami, FL",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+greasy pizza box,images/greasy_pizza_box.jpg,a box with a piece of paper inside,"Miami, FL",compost,trash,❌,"classification: trash
+reason: The item is not accepted in local curbside recycling or composting. It is a mixed-material item (box with paper inside) and not explicitly allowed for composting or recycling.",[🖼️ from greasy_pizza_box.jpg]
+tea leaves,nan,,"Denver, CO",compost,compost,✅,"classification: compost
+reason: Tea leaves are food waste and can be composted, especially since curbside composting is available in Denver.",[text]
+tea leaves,images/tea_leaves.jpg,a glass bowl filled with black tea,"Atlanta, GA",compost,trash,❌,"classification: trash
+reason: The glass bowl filled with black tea is not accepted in curbside composting or recycling programs. It is not a food waste, food-soiled paper, or certified compostable item. Therefore, it should be disposed of in the trash.",[🖼️ from tea_leaves.jpg]
+ceramic plate,nan,,"San Francisco, CA",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+milk jug,nan,,"Boston, MA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+orange peel,nan,,"Miami, FL",compost,trash,❌,"classification: trash
+reason: The orange peel is food waste, but since curbside composting is not available and the user does not have home composting access, it should be disposed of in the trash.",[text]
+clean cardboard,nan,,"Atlanta, GA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+nan,images/lettuce.jpg,a head of cabbage on a white background,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: The head of cabbage is a food waste item and can be composted since curbside composting is available in San Francisco.",[🖼️ from lettuce.jpg]
+nan,images/orange_peel.jpg,an orange peel cut in half,"Atlanta, GA",compost,compost,✅,"classification: compost
+reason: The item is a food scrap (orange peel) and curbside composting is available in Atlanta, GA.",[🖼️ from orange_peel.jpg]
+paper towel roll,images/paper_towel_roll.jpg,a roll of brown paper on a white background,"Boston, MA",recycle,trash,❌,"classification: trash
+reason: The item is not accepted in local curbside composting or recycling. It is not food waste, food-soiled paper, or certified compostable.",[🖼️ from paper_towel_roll.jpg]
+tea leaves,nan,,"Phoenix, AZ",compost,trash,❌,"classification: trash
+reason: Tea leaves are not accepted in local curbside recycling or composting programs. They are not explicitly allowed for composting and are not a recyclable material. Therefore, they should be disposed of in the trash.",[text]
+foam cup,images/foam_cup.jpg,a white paper cup on a white background,"San Francisco, CA",trash,trash,✅,"classification: trash
+reason: The white paper cup is not accepted in local curbside composting or recycling programs. It is a mixed-material item that is not explicitly allowed for composting or recycling.",[🖼️ from foam_cup.jpg]
+glass bottle,nan,,"Miami, FL",recycle,recycle,✅,"classification: recycle
+reason: Glass bottles are accepted by curbside recycling in most U.S. cities, including Miami, FL.",[text]
+paper towel roll,nan,,"Miami, FL",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+tea leaves,images/tea_leaves.jpg,a glass bowl filled with black tea,"Seattle, WA",compost,compost,✅,"classification: compost
+reason: The item is food-soiled (black tea) and can be composted since curbside composting is available in Seattle.",[🖼️ from tea_leaves.jpg]
+used paper towel,nan,,"Miami, FL",compost,trash,❌,"classification: trash
+reason: The used paper towel is not accepted in local curbside recycling or composting. It is considered trash as it is not explicitly allowed for recycling or composting.",[text]
+aluminum can,nan,,"Miami, FL",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+greasy pizza box,nan,,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: The greasy pizza box is food-soiled paper, which is accepted for composting in San Francisco with curbside composting available.",[text]
+foam cup,images/foam_cup.jpg,a white paper cup on a white background,"San Francisco, CA",trash,trash,✅,"classification: trash
+reason: The white paper cup is not accepted in local curbside composting or recycling programs in San Francisco, CA. It is not explicitly allowed for composting and is not a clean paper item for recycling. Therefore, it should be disposed of in the trash.",[🖼️ from foam_cup.jpg]
+chip bag,nan,,"Austin, TX",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+nan,images/tea_leaves.jpg,a glass bowl filled with black tea,"Chicago, IL",compost,trash,❌,"classification: trash
+reason: The glass bowl filled with black tea is not accepted in curbside composting or recycling programs. It is not a food waste, food-soiled paper, or certified compostable item. Therefore, it should be disposed of in the trash.",[🖼️ from tea_leaves.jpg]
+tin can,nan,,"Atlanta, GA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+candy wrapper,nan,,"Denver, CO",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+nan,images/ceramic_plate.jpg,a white plate with a white rim,"Denver, CO",trash,trash,✅,"classification: trash
+reason: The white plate with a white rim is not accepted in local curbside composting or recycling programs. It is not a food waste, food-soiled paper, or certified compostable item, so it should be disposed of in the trash.",[🖼️ from ceramic_plate.jpg]
+aluminum can,images/aluminum_can.jpg,coca can on white background,"Atlanta, GA",recycle,recycle,✅,"classification: recycle
+reason: The item (aluminum can) is accepted by curbside recycling in most U.S. cities, including Atlanta, GA.",[🖼️ from aluminum_can.jpg]
+nan,images/orange_peel.jpg,an orange peel cut in half,"Miami, FL",compost,trash,❌,"classification: trash
+reason: The orange peel cut in half is a food scrap, but since curbside composting is not available and the user does not have home composting access, it should be disposed of in the trash.",[🖼️ from orange_peel.jpg]
+clean cardboard,nan,,"Miami, FL",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+chip bag,nan,,"Denver, CO",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+nan,images/clean_cardboard.jpg,cardboard boxes,"Seattle, WA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[🖼️ from clean_cardboard.jpg]
+k-cup,nan,,"Boston, MA",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+milk jug,nan,,"Chicago, IL",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+nan,images/aluminum_can.jpg,coca can on white background,"Boston, MA",recycle,recycle,✅,"classification: recycle
+reason: The item (aluminum can) is accepted by curbside recycling in most U.S. cities, including Boston, MA.",[🖼️ from aluminum_can.jpg]
+soup container,nan,,"Boston, MA",trash,compost,❌,"classification: compost
+reason: The soup container is likely food-soiled paper and can be composted since curbside composting is available in Boston, MA.",[text]
+tea leaves,images/tea_leaves.jpg,a glass bowl filled with black tea,"Miami, FL",compost,trash,❌,"classification: trash
+reason: The glass bowl filled with black tea is not accepted in local curbside recycling or composting. It is not a food waste, food-soiled paper, or certified compostable item. Therefore, it should be disposed of in the trash.",[🖼️ from tea_leaves.jpg]
+chip bag,nan,,"Boston, MA",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+candy wrapper,images/candy_wrapper.jpg,a blue candy with a bow on top,"Austin, TX",trash,trash,✅,"classification: trash
+reason: The item is not food waste, food-soiled paper, or certified compostable. It is not accepted in curbside recycling and does not meet the criteria for composting.",[🖼️ from candy_wrapper.jpg]
+nan,images/candy_wrapper.jpg,a blue candy with a bow on top,"Phoenix, AZ",trash,trash,✅,"classification: trash  
+reason: The item is not accepted in local curbside recycling or composting. It is a mixed-material item that is not explicitly allowed for composting or recycling.",[🖼️ from candy_wrapper.jpg]
+nan,images/candy_wrapper.jpg,a blue candy with a bow on top,"San Francisco, CA",trash,trash,✅,"classification: trash  
+reason: The item is not food waste, food-soiled paper, or certified compostable. It is not accepted in local curbside recycling or composting.",[🖼️ from candy_wrapper.jpg]
+nan,images/moldy_bread.jpg,a white plate topped with a slice of spinach bread,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: The item is food waste (spinach bread) and food-soiled paper (plate). Curbside composting is available in San Francisco, so the item can be composted.",[🖼️ from moldy_bread.jpg]
+nan,images/orange_peel.jpg,an orange peel cut in half,"Denver, CO",compost,compost,✅,"classification: compost
+reason: The orange peel cut in half is a food waste item, which is suitable for composting. Since curbside composting is available in Denver, CO, the item should be composted.",[🖼️ from orange_peel.jpg]
+nan,images/candy_wrapper.jpg,a blue candy with a bow on top,"Austin, TX",trash,trash,✅,"classification: trash
+reason: The item is not food waste, food-soiled paper, or certified compostable. It is not accepted in curbside recycling and does not meet the criteria for composting.",[🖼️ from candy_wrapper.jpg]
+nan,images/aluminum_can.jpg,coca can on white background,"San Francisco, CA",recycle,recycle,✅,"classification: recycle
+reason: The item (aluminum can) is accepted by curbside recycling in most U.S. cities, including San Francisco.",[🖼️ from aluminum_can.jpg]
+nan,images/banana_peel.jpg,a bunch of bananas,"Chicago, IL",compost,compost,✅,"classification: compost
+reason: The item is food waste (a bunch of bananas) and curbside composting is available in Chicago.",[🖼️ from banana_peel.jpg]
+milk jug,nan,,"Denver, CO",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+nan,images/clean_cardboard.jpg,cardboard boxes,"Miami, FL",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[🖼️ from clean_cardboard.jpg]
+tin can,nan,,"Phoenix, AZ",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+nan,images/tin_can.jpg,a tin can with a metal lid,"Seattle, WA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[🖼️ from tin_can.jpg]
+lettuce,nan,,"Miami, FL",compost,trash,❌,"classification: trash  
+reason: Lettuce is not accepted in local curbside recycling or composting programs. It is not a food scrap or food-soiled paper, and it is not explicitly allowed for composting or recycling.",[text]
+nan,images/orange_peel.jpg,an orange peel cut in half,"Miami, FL",compost,trash,❌,"classification: trash
+reason: The orange peel is a food scrap, but since curbside composting is not available and the user does not have home composting access, the correct disposal method is to throw it in the trash.",[🖼️ from orange_peel.jpg]
+chip bag,nan,,"Boston, MA",trash,trash,✅,"classification: trash
+reason: This item is plastic-lined, ambiguous, or not accepted curbside.",[text]
+paper towel roll,nan,,"Austin, TX",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+nan,images/tin_can.jpg,a tin can with a metal lid,"Seattle, WA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[🖼️ from tin_can.jpg]
+tea leaves,images/tea_leaves.jpg,a glass bowl filled with black tea,"Phoenix, AZ",compost,trash,❌,"classification: trash  
+reason: The glass bowl filled with black tea is not accepted in local curbside recycling or composting. It is a mixed-material item that is not explicitly allowed for either recycling or composting. Therefore, it should be disposed of in the trash.",[🖼️ from tea_leaves.jpg]
+tin can,nan,,"Miami, FL",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+paper towel roll,nan,,"Atlanta, GA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+banana peel,nan,,"Denver, CO",compost,compost,✅,"classification: compost
+reason: The banana peel is a food scrap and can be composted since curbside composting is available in Denver, CO.",[text]
+nan,images/tea_leaves.jpg,a glass bowl filled with black tea,"San Francisco, CA",compost,compost,✅,"classification: compost
+reason: The item is food-soiled (black tea) and can be composted since curbside composting is available in San Francisco.",[🖼️ from tea_leaves.jpg]
+moldy bread,nan,,"Chicago, IL",compost,compost,✅,"classification: compost
+reason: The item is food waste (moldy bread) and curbside composting is available in Chicago, IL.",[text]
+paper towel roll,nan,,"New York, NY",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+banana peel,nan,,"Denver, CO",compost,compost,✅,"classification: compost
+reason: The banana peel is a food scrap and can be composted since curbside composting is available in Denver.",[text]
+ceramic plate,images/ceramic_plate.jpg,a white plate with a white rim,"Boston, MA",trash,trash,✅,"classification: trash
+reason: The white plate with a white rim is not accepted in local curbside composting or recycling programs. It is not a food waste, food-soiled paper, or certified compostable item. Therefore, it should be disposed of in the trash.",[🖼️ from ceramic_plate.jpg]
+soup container,images/soup_container.jpg,a clear plastic cup with a lid,"Denver, CO",trash,trash,✅,"classification: trash  
+reason: The clear plastic cup with a lid is not accepted in local curbside recycling or composting. It is a mixed-material item that is not explicitly allowed for composting or recycling.",[🖼️ from soup_container.jpg]
+glass bottle,nan,,"Atlanta, GA",recycle,recycle,✅,"classification: recycle
+reason: The item (glass bottle) is accepted by curbside recycling in most U.S. cities, including Atlanta, GA.",[text]
+milk jug,nan,,"Boston, MA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+clean cardboard,images/clean_cardboard.jpg,cardboard boxes,"Boston, MA",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[🖼️ from clean_cardboard.jpg]
+nan,images/tea_leaves.jpg,a glass bowl filled with black tea,"Atlanta, GA",compost,trash,❌,"classification: trash
+reason: The glass bowl filled with black tea is not accepted in curbside composting or recycling programs. It is not a food waste, food-soiled paper, or certified compostable item. Therefore, it should be disposed of in the trash.",[🖼️ from tea_leaves.jpg]
+ceramic plate,images/ceramic_plate.jpg,a white plate with a white rim,"San Francisco, CA",trash,trash,✅,"classification: trash
+reason: The white plate with a white rim is not accepted in local curbside recycling or composting. It is not a food waste, food-soiled paper, or certified compostable item, and it is not accepted by curbside recycling. Therefore, it should be disposed of in the trash.",[🖼️ from ceramic_plate.jpg]
+tea leaves,images/tea_leaves.jpg,a glass bowl filled with black tea,"Phoenix, AZ",compost,trash,❌,"classification: trash
+reason: The glass bowl filled with black tea is not accepted in local curbside recycling or composting. It is a mixed-material item that is not explicitly allowed for either recycling or composting. Therefore, it should be disposed of in the trash.",[🖼️ from tea_leaves.jpg]
+nan,images/foam_cup.jpg,a white paper cup on a white background,"Seattle, WA",trash,trash,✅,"classification: trash
+reason: The white paper cup is not accepted in local curbside composting or recycling programs. It is a mixed-material item that is not explicitly allowed for composting or recycling.",[🖼️ from foam_cup.jpg]
+tin can,nan,,"Denver, CO",recycle,recycle,✅,"classification: recycle
+reason: This item is accepted in most curbside recycling programs.",[text]
+tea leaves,nan,,"Atlanta, GA",compost,compost,✅,"classification: compost
+reason: Tea leaves are food waste and can be composted. Since curbside composting is available in Atlanta, they should be composted curbside.",[text]
