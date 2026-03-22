@@ -40,4 +40,4 @@ def index():
     return render_template("index.html", result=result, message=message, past_history=past_history)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
